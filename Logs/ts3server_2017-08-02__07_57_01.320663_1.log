@@ -1,0 +1,447 @@
+﻿2017-08-02 07:57:03.500407|INFO    |VirtualServer |1  |listening on 1.1.1.1:111, :::9987
+2017-08-02 07:57:06.959344|INFO    |VirtualServerBase|1  |client connected 'MyName'(id:2) from 1.1.1.1:111
+2017-08-02 07:57:27.457173|INFO    |VirtualServerBase|1  |client connected 'AudioBot'(id:253) from 1.1.1.1:111
+2017-08-02 09:00:47.927945|INFO    |VirtualServerBase|1  |client connected 'friend-too'(id:3) from 1.1.1.1:111
+2017-08-02 11:10:34.069904|INFO    |VirtualServerBase|1  |client connected 'friend42[Laptop]'(id:10) from 1.1.1.1:111
+2017-08-02 12:16:36.888002|INFO    |VirtualServerBase|1  |client disconnected 'friend42[Laptop]'(id:10) reason 'reasonmsg=Verlassen'
+2017-08-02 12:17:43.654187|INFO    |VirtualServerBase|1  |client connected 'friend42[Laptop]'(id:10) from 1.1.1.1:111
+2017-08-02 12:52:33.215555|INFO    |VirtualServerBase|1  |client disconnected 'friend42[Laptop]'(id:10) reason 'reasonmsg=Verlassen'
+2017-08-02 12:54:50.925082|INFO    |VirtualServerBase|1  |client connected 'friend42'(id:10) from 1.1.1.1:111
+2017-08-02 15:04:17.759763|INFO    |VirtualServerBase|1  |client disconnected 'friend42'(id:10) reason 'reasonmsg=Verlassen'
+2017-08-02 17:34:24.097046|INFO    |VirtualServerBase|1  |client connected 'friend42'(id:10) from 1.1.1.1:111
+2017-08-02 20:41:44.304090|INFO    |VirtualServerBase|1  |client disconnected 'friend42'(id:10) reason 'reasonmsg=Verlassen'
+2017-08-02 21:05:56.294173|INFO    |VirtualServerBase|1  |client disconnected 'MyName'(id:2) reason 'reasonmsg=I'll be back!'
+2017-08-02 23:58:37.002330|INFO    |PktHandler    |1  |Dropping client 3 because of ping timeout 19 0 0
+2017-08-02 23:58:37.011805|INFO    |VirtualServerBase|1  |client disconnected 'friend-too'(id:3) reason 'reasonmsg=connection lost'
+2017-08-03 08:30:18.654573|INFO    |VirtualServerBase|1  |client connected 'MyName'(id:2) from 1.1.1.1:111
+2017-08-03 08:32:44.965688|INFO    |VirtualServerBase|1  |client disconnected 'MyName'(id:2) reason 'reasonmsg=I'll be back!'
+2017-08-03 08:35:50.002334|INFO    |VirtualServerBase|1  |client connected 'MyName'(id:2) from 1.1.1.1:111
+2017-08-03 09:09:22.783554|INFO    |VirtualServerBase|1  |client disconnected 'MyName'(id:2) reason 'reasonmsg=I'll be back!'
+2017-08-03 09:09:27.860396|INFO    |VirtualServerBase|1  |client connected 'MyName'(id:2) from 1.1.1.1:111
+2017-08-03 09:15:41.164524|INFO    |VirtualServerBase|1  |client disconnected 'MyName'(id:2) reason 'reasonmsg=I'll be back!'
+2017-08-03 09:16:36.694553|INFO    |VirtualServerBase|1  |client connected 'MyName'(id:2) from 1.1.1.1:111
+2017-08-03 12:33:44.801694|INFO    |VirtualServerBase|1  |client connected 'friend-too'(id:3) from 1.1.1.1:111
+2017-08-03 15:52:35.652465|INFO    |VirtualServerBase|1  |client connected 'friend42'(id:10) from 1.1.1.1:111
+2017-08-03 18:03:37.790764|INFO    |VirtualServerBase|1  |client connected 'Bob'(id:358) from 1.1.1.1:111
+2017-08-03 18:03:59.157161|INFO    |VirtualServerBase|1  |client connected 'Bob1'(id:307) from 1.1.1.1:111
+2017-08-03 18:42:46.872530|INFO    |VirtualServerBase|1  |client disconnected 'Bob'(id:358) reason 'reasonmsg=leaving'
+2017-08-03 18:42:53.662523|INFO    |VirtualServerBase|1  |client disconnected 'Bob1'(id:307) reason 'reasonmsg=leaving'
+2017-08-03 20:05:46.106845|INFO    |VirtualServerBase|1  |client disconnected 'friend42'(id:10) reason 'reasonmsg=Verlassen'
+2017-08-03 22:40:20.918812|INFO    |VirtualServerBase|1  |client disconnected 'MyName'(id:2) reason 'reasonmsg=I'll be back!'
+2017-08-03 23:47:00.292084|INFO    |PktHandler    |1  |Dropping client 1 because of ping timeout 19 0 0
+2017-08-03 23:47:00.292168|INFO    |VirtualServerBase|1  |client disconnected 'friend-too'(id:3) reason 'reasonmsg=connection lost'
+2017-08-04 06:57:37.388726|INFO    |VirtualServer |1  |query client connected 'Unknown from 1.1.1.1:111'(id:73)
+2017-08-04 06:57:37.390210|INFO    |VirtualServerBase|1  |query client disconnected 'Scriptie'(id:73) reason 'reasonmsg=disconnecting'
+2017-08-04 06:58:26.522317|INFO    |VirtualServer |1  |query client connected 'Unknown from 1.1.1.1:111'(id:73)
+2017-08-04 06:58:26.523865|INFO    |VirtualServerBase|1  |query client disconnected 'Scriptie'(id:73) reason 'reasonmsg=disconnecting'
+2017-08-04 06:59:00.094403|INFO    |VirtualServer |1  |query client connected 'Unknown from 1.1.1.1:111'(id:73)
+2017-08-04 06:59:00.095472|INFO    |VirtualServerBase|1  |query client disconnected 'Scriptie'(id:73) reason 'reasonmsg=disconnecting'
+2017-08-04 08:28:20.036419|INFO    |VirtualServerBase|1  |client connected 'Bob4'(id:368) from 1.1.1.1:111
+2017-08-04 08:28:20.766221|INFO    |VirtualServerBase|1  |file download from (id:0), '/icon_2568555213' by client 'Bob4'(id:368)
+2017-08-04 08:28:21.462178|INFO    |VirtualServerBase|1  |file download from (id:0), '/icon_1223793887' by client 'Bob4'(id:368)
+2017-08-04 08:28:22.923180|INFO    |VirtualServerBase|1  |client disconnected 'Bob4'(id:368) reason 'reasonmsg=leaving'
+2017-08-04 08:37:23.885540|INFO    |VirtualServerBase|1  |client connected 'friend-too'(id:3) from 1.1.1.1:111
+2017-08-04 15:08:29.576318|INFO    |VirtualServerBase|1  |client connected 'Bob'(id:358) from 1.1.1.1:111
+2017-08-04 15:08:42.015071|INFO    |VirtualServerBase|1  |client connected 'Bob1'(id:307) from 1.1.1.1:111
+2017-08-04 16:36:37.628243|INFO    |VirtualServerBase|1  |client disconnected 'Bob'(id:358) reason 'reasonmsg=leaving'
+2017-08-04 16:49:24.589599|INFO    |VirtualServerBase|1  |client connected 'Bob'(id:358) from 1.1.1.1:111
+2017-08-04 17:36:49.668663|INFO    |VirtualServerBase|1  |client disconnected 'Bob1'(id:307) reason 'reasonmsg=leaving'
+2017-08-04 17:36:50.014133|INFO    |VirtualServerBase|1  |client disconnected 'Bob'(id:358) reason 'reasonmsg=leaving'
+2017-08-04 18:00:03.513639|INFO    |VirtualServerBase|1  |client connected 'MyName'(id:2) from 1.1.1.1:111
+2017-08-04 18:10:25.033687|INFO    |VirtualServerBase|1  |client connected 'friend42'(id:10) from 1.1.1.1:111
+2017-08-04 18:19:47.801054|INFO    |VirtualServerBase|1  |client disconnected 'friend42'(id:10) reason 'reasonmsg=Verlassen'
+2017-08-04 18:35:02.735684|INFO    |VirtualServerBase|1  |client connected 'friend42'(id:10) from 1.1.1.1:111
+2017-08-04 19:07:06.799445|INFO    |VirtualServerBase|1  |client connected 'Bob'(id:358) from 1.1.1.1:111
+2017-08-04 19:27:22.388802|INFO    |VirtualServerBase|1  |client connected 'Bob1'(id:307) from 1.1.1.1:111
+2017-08-04 20:44:40.191209|INFO    |VirtualServerBase|1  |client disconnected 'Bob'(id:358) reason 'reasonmsg=leaving'
+2017-08-04 20:46:09.059169|INFO    |VirtualServerBase|1  |client disconnected 'Bob1'(id:307) reason 'reasonmsg=leaving'
+2017-08-04 21:05:55.879031|INFO    |VirtualServerBase|1  |client disconnected 'friend42'(id:10) reason 'reasonmsg=Verlassen'
+2017-08-04 22:42:41.312220|INFO    |VirtualServerBase|1  |client disconnected 'MyName'(id:2) reason 'reasonmsg=I'll be back!'
+2017-08-04 23:03:47.013433|INFO    |PktHandler    |1  |Dropping client 3 because of ping timeout 19 0 0
+2017-08-04 23:03:47.013524|INFO    |VirtualServerBase|1  |client disconnected 'friend-too'(id:3) reason 'reasonmsg=connection lost'
+2017-08-05 11:21:53.235010|INFO    |VirtualServerBase|1  |client connected 'friend-too'(id:3) from 1.1.1.1:111
+2017-08-05 11:23:59.901466|INFO    |VirtualServerBase|1  |client connected 'MyName'(id:2) from 1.1.1.1:111
+2017-08-05 13:58:02.955650|INFO    |VirtualServerBase|1  |client connected 'friend42'(id:10) from 1.1.1.1:111
+2017-08-05 14:10:15.129781|INFO    |VirtualServerBase|1  |client connected 'Bob'(id:358) from 1.1.1.1:111
+2017-08-05 14:10:43.738916|INFO    |VirtualServerBase|1  |client connected 'Bob5'(id:332) from 1.1.1.1:111
+2017-08-05 14:11:00.537494|INFO    |VirtualServerBase|1  |client disconnected 'Bob5'(id:332) reason 'reasonmsg=leaving'
+2017-08-05 14:11:13.846625|INFO    |VirtualServerBase|1  |client connected 'Bob5'(id:332) from 1.1.1.1:111
+2017-08-05 15:54:13.026272|INFO    |VirtualServerBase|1  |client disconnected 'friend42'(id:10) reason 'reasonmsg=Verlassen'
+2017-08-05 16:14:00.996732|INFO    |VirtualServerBase|1  |client connected 'friend-too1'(id:3) from 1.1.1.1:111
+2017-08-05 16:14:19.396046|INFO    |PktHandler    |1  |Dropping client 1 because of ping timeout 19 0 0
+2017-08-05 16:14:19.396130|INFO    |VirtualServerBase|1  |client disconnected 'friend-too'(id:3) reason 'reasonmsg=connection lost'
+2017-08-05 16:46:02.530741|INFO    |VirtualServerBase|1  |client disconnected 'Bob5'(id:332) reason 'reasonmsg=leaving'
+2017-08-05 16:46:04.362518|INFO    |VirtualServerBase|1  |client disconnected 'Bob'(id:358) reason 'reasonmsg=leaving'
+2017-08-05 17:49:19.514801|INFO    |VirtualServerBase|1  |client connected 'friend42'(id:10) from 1.1.1.1:111
+2017-08-05 20:18:31.250739|INFO    |VirtualServerBase|1  |client connected 'Bob1'(id:307) from 1.1.1.1:111
+2017-08-05 20:19:56.924384|INFO    |VirtualServerBase|1  |client connected 'Bob'(id:358) from 1.1.1.1:111
+2017-08-05 21:03:26.024625|INFO    |VirtualServerBase|1  |client disconnected 'Bob'(id:358) reason 'reasonmsg=leaving'
+2017-08-05 21:04:00.261133|INFO    |VirtualServerBase|1  |client disconnected 'Bob1'(id:307) reason 'reasonmsg=leaving'
+2017-08-05 21:50:47.879957|INFO    |VirtualServerBase|1  |client disconnected 'MyName'(id:2) reason 'reasonmsg=I'll be back!'
+2017-08-05 22:17:57.490859|INFO    |VirtualServerBase|1  |client disconnected 'friend42'(id:10) reason 'reasonmsg=Verlassen'
+2017-08-05 23:43:06.440667|INFO    |PktHandler    |1  |Dropping client 8 because of ping timeout 19 0 0
+2017-08-05 23:43:06.440758|INFO    |VirtualServerBase|1  |client disconnected 'friend-too1'(id:3) reason 'reasonmsg=connection lost'
+2017-08-06 07:05:58.148532|INFO    |VirtualServerBase|1  |client connected 'MyName'(id:2) from 1.1.1.1:111
+2017-08-06 08:01:18.547187|INFO    |VirtualServerBase|1  |client connected 'friend-too'(id:3) from 1.1.1.1:111
+2017-08-06 17:48:19.597788|INFO    |VirtualServerBase|1  |client connected 'Bob6'(id:367) from 1.1.1.1:111
+2017-08-06 17:48:27.902075|INFO    |VirtualServerBase|1  |client disconnected 'Bob6'(id:367) reason 'reasonmsg=Verlassen'
+2017-08-06 21:19:48.117112|INFO    |VirtualServerBase|1  |client disconnected 'MyName'(id:2) reason 'reasonmsg=I'll be back!'
+2017-08-06 23:30:43.546970|INFO    |PktHandler    |1  |Dropping client 3 because of ping timeout 19 0 0
+2017-08-06 23:30:43.547049|INFO    |VirtualServerBase|1  |client disconnected 'friend-too'(id:3) reason 'reasonmsg=connection lost'
+2017-08-06 23:46:41.710207|INFO    |VirtualServer |1  |query client connected 'Unknown from 1.1.1.1:111'(id:73)
+2017-08-06 23:46:41.711583|INFO    |VirtualServerBase|1  |query client disconnected 'Scriptie'(id:73) reason 'reasonmsg=disconnecting'
+2017-08-07 07:25:16.089743|INFO    |VirtualServerBase|1  |client connected 'MyName'(id:2) from 1.1.1.1:111
+2017-08-07 10:57:37.234223|INFO    |VirtualServerBase|1  |client connected 'friend-too'(id:3) from 1.1.1.1:111
+2017-08-07 16:35:48.194805|INFO    |VirtualServerBase|1  |client connected 'Bob'(id:358) from 1.1.1.1:111
+2017-08-07 16:37:03.435950|INFO    |VirtualServerBase|1  |client connected 'Bob1'(id:307) from 1.1.1.1:111
+2017-08-07 17:43:54.077346|INFO    |VirtualServerBase|1  |client disconnected 'Bob1'(id:307) reason 'reasonmsg=leaving'
+2017-08-07 17:55:42.090536|INFO    |VirtualServerBase|1  |client disconnected 'Bob'(id:358) reason 'reasonmsg=leaving'
+2017-08-07 22:12:30.139121|INFO    |VirtualServerBase|1  |client disconnected 'MyName'(id:2) reason 'reasonmsg=I'll be back!'
+2017-08-08 00:21:48.595052|INFO    |PktHandler    |1  |Dropping client 4 because of ping timeout 19 0 0
+2017-08-08 00:21:48.595124|INFO    |VirtualServerBase|1  |client disconnected 'friend-too'(id:3) reason 'reasonmsg=connection lost'
+2017-08-08 08:39:49.276242|INFO    |VirtualServerBase|1  |client connected 'friend-too'(id:3) from 1.1.1.1:111
+2017-08-08 08:44:29.566184|INFO    |VirtualServerBase|1  |client connected 'MyName'(id:2) from 1.1.1.1:111
+2017-08-08 08:48:21.339455|INFO    |VirtualServerBase|1  |client disconnected 'MyName'(id:2) reason 'reasonmsg=I'll be back!'
+2017-08-08 12:51:12.062946|INFO    |PktHandler    |1  |Dropping client 1 because of ping timeout 19 0 0
+2017-08-08 12:51:12.063029|INFO    |VirtualServerBase|1  |client disconnected 'friend-too'(id:3) reason 'reasonmsg=connection lost'
+2017-08-08 12:51:18.339834|INFO    |VirtualServerBase|1  |client connected 'friend-too'(id:3) from 1.1.1.1:111
+2017-08-08 13:09:48.617504|INFO    |VirtualServerBase|1  |client connected 'MyName'(id:2) from 1.1.1.1:111
+2017-08-08 19:25:48.610912|INFO    |VirtualServerBase|1  |client connected 'Bob5'(id:332) from 1.1.1.1:111
+2017-08-08 19:32:56.545853|INFO    |VirtualServerBase|1  |client connected 'Bob'(id:358) from 1.1.1.1:111
+2017-08-08 19:33:48.686996|INFO    |VirtualServerBase|1  |client connected 'Bob1'(id:307) from 1.1.1.1:111
+2017-08-08 20:25:13.001109|INFO    |VirtualServerBase|1  |client connected 'friend42'(id:10) from 1.1.1.1:111
+2017-08-08 20:32:05.898377|INFO    |VirtualServerBase|1  |client disconnected 'friend42'(id:10) reason 'reasonmsg=Verlassen'
+2017-08-08 20:50:27.021319|INFO    |PktHandler    |1  |Dropping client 6 because of ping timeout 19 0 0
+2017-08-08 20:50:27.021398|INFO    |VirtualServerBase|1  |client disconnected 'Bob5'(id:332) reason 'reasonmsg=connection lost'
+2017-08-08 20:50:34.930447|INFO    |VirtualServerBase|1  |client connected 'Bob5'(id:332) from 1.1.1.1:111
+2017-08-08 21:03:52.643132|INFO    |VirtualServerBase|1  |client disconnected 'Bob'(id:358) reason 'reasonmsg=leaving'
+2017-08-08 21:03:56.014665|INFO    |VirtualServerBase|1  |client disconnected 'Bob1'(id:307) reason 'reasonmsg=leaving'
+2017-08-08 21:04:07.224365|INFO    |VirtualServerBase|1  |client disconnected 'Bob5'(id:332) reason 'reasonmsg=leaving'
+2017-08-08 21:57:02.508103|INFO    |VirtualServerBase|1  |client disconnected 'MyName'(id:2) reason 'reasonmsg=I'll be back!'
+2017-08-09 02:05:37.990343|INFO    |PktHandler    |1  |Dropping client 4 because of ping timeout 19 0 0
+2017-08-09 02:05:37.990430|INFO    |VirtualServerBase|1  |client disconnected 'friend-too'(id:3) reason 'reasonmsg=connection lost'
+2017-08-09 09:18:49.858934|INFO    |VirtualServerBase|1  |client connected 'friend-too'(id:3) from 1.1.1.1:111
+2017-08-09 10:39:08.694845|INFO    |VirtualServerBase|1  |client connected 'MyName'(id:2) from 1.1.1.1:111
+2017-08-09 14:42:18.138087|INFO    |VirtualServerBase|1  |client connected 'Bob5'(id:332) from 1.1.1.1:111
+2017-08-09 14:43:03.095887|INFO    |VirtualServerBase|1  |client disconnected 'Bob5'(id:332) reason 'reasonmsg=leaving'
+2017-08-09 14:43:12.028115|INFO    |VirtualServerBase|1  |client connected 'Bob5'(id:332) from 1.1.1.1:111
+2017-08-09 14:43:43.704152|INFO    |VirtualServerBase|1  |client disconnected 'Bob5'(id:332) reason 'reasonmsg=leaving'
+2017-08-09 15:42:22.788351|INFO    |VirtualServerBase|1  |client connected 'Bob'(id:358) from 1.1.1.1:111
+2017-08-09 15:42:34.604124|INFO    |VirtualServerBase|1  |client disconnected 'Bob'(id:358) reason 'reasonmsg=leaving'
+2017-08-09 15:42:47.329410|INFO    |VirtualServerBase|1  |client connected 'Bob'(id:358) from 1.1.1.1:111
+2017-08-09 15:43:42.981927|INFO    |VirtualServerBase|1  |client disconnected 'Bob'(id:358) reason 'reasonmsg=leaving'
+2017-08-09 17:41:03.855036|INFO    |VirtualServerBase|1  |client connected 'friend42'(id:10) from 1.1.1.1:111
+2017-08-09 18:40:12.245040|INFO    |VirtualServerBase|1  |client connected 'Bob5'(id:332) from 1.1.1.1:111
+2017-08-09 18:40:15.440370|INFO    |VirtualServerBase|1  |client connected 'Bob'(id:358) from 1.1.1.1:111
+2017-08-09 18:49:42.907255|INFO    |PktHandler    |1  |Dropping client 5 because of ping timeout 19 0 0
+2017-08-09 18:49:42.911466|INFO    |VirtualServerBase|1  |client disconnected 'Bob5'(id:332) reason 'reasonmsg=connection lost'
+2017-08-09 18:49:51.988487|INFO    |VirtualServerBase|1  |client connected 'Bob5'(id:332) from 1.1.1.1:111
+2017-08-09 20:22:59.195240|INFO    |VirtualServerBase|1  |client disconnected 'Bob'(id:358) reason 'reasonmsg=leaving'
+2017-08-09 20:22:59.825160|INFO    |VirtualServerBase|1  |client disconnected 'Bob5'(id:332) reason 'reasonmsg=leaving'
+2017-08-09 21:03:00.193462|INFO    |VirtualServerBase|1  |client disconnected 'friend42'(id:10) reason 'reasonmsg=Verlassen'
+2017-08-09 22:08:47.060778|INFO    |VirtualServerBase|1  |client connected 'MyName1'(id:2) from 1.1.1.1:111
+2017-08-09 22:08:47.116104|INFO    |VirtualServerBase|1  |client connected 'friend-too1'(id:3) from 1.1.1.1:111
+2017-08-09 22:09:07.147056|INFO    |PktHandler    |1  |Cleaning up connection because of 13 resends of COMMAND packet
+2017-08-09 22:09:07.147107|INFO    |PktHandler    |1  |Dropping client 3 because of resend timeout
+2017-08-09 22:09:07.147143|INFO    |VirtualServerBase|1  |client disconnected 'MyName'(id:2) reason 'reasonmsg=connection lost'
+2017-08-09 22:09:10.150289|INFO    |PktHandler    |1  |Cleaning up connection because of 14 resends of COMMAND packet
+2017-08-09 22:09:10.912992|INFO    |PktHandler    |1  |Dropping client 1 because of resend timeout
+2017-08-09 22:09:10.913046|INFO    |VirtualServerBase|1  |client disconnected 'friend-too'(id:3) reason 'reasonmsg=connection lost'
+2017-08-09 22:21:24.033990|INFO    |PktHandler    |1  |Dropping client 4 because of ping timeout 19 0 0
+2017-08-09 22:21:24.034050|INFO    |VirtualServerBase|1  |client disconnected 'MyName1'(id:2) reason 'reasonmsg=connection lost'
+2017-08-10 00:01:27.291406|INFO    |PktHandler    |1  |Dropping client 5 because of ping timeout 19 0 0
+2017-08-10 00:01:27.291483|INFO    |VirtualServerBase|1  |client disconnected 'friend-too1'(id:3) reason 'reasonmsg=connection lost'
+2017-08-10 09:38:18.598864|INFO    |VirtualServerBase|1  |client connected 'friend-too'(id:3) from 1.1.1.1:111
+2017-08-10 15:12:33.654118|INFO    |VirtualServerBase|1  |client connected 'Bob5'(id:332) from 1.1.1.1:111
+2017-08-10 15:13:42.986071|INFO    |VirtualServerBase|1  |client connected 'Bob1'(id:307) from 1.1.1.1:111
+2017-08-10 15:14:19.880137|INFO    |VirtualServerBase|1  |client connected 'Bob'(id:358) from 1.1.1.1:111
+2017-08-10 16:04:23.842943|INFO    |VirtualServerBase|1  |client disconnected 'Bob5'(id:332) reason 'reasonmsg=leaving'
+2017-08-10 16:44:34.400385|INFO    |VirtualServerBase|1  |client disconnected 'Bob1'(id:307) reason 'reasonmsg=leaving'
+2017-08-10 16:44:36.303352|INFO    |VirtualServerBase|1  |client disconnected 'Bob'(id:358) reason 'reasonmsg=leaving'
+2017-08-10 16:47:24.609068|INFO    |VirtualServerBase|1  |client connected 'MyName'(id:2) from 1.1.1.1:111
+2017-08-10 17:26:41.252773|INFO    |VirtualServerBase|1  |client connected 'Bob'(id:358) from 1.1.1.1:111
+2017-08-10 18:51:55.113664|INFO    |VirtualServerBase|1  |client connected 'friend4'(id:351) from 1.1.1.1:111
+2017-08-10 18:52:15.311716|INFO    |VirtualServerBase|1  |client disconnected 'friend4'(id:351) reason 'reasonmsg=verlassen'
+2017-08-10 19:38:51.710915|INFO    |VirtualServerBase|1  |client connected 'Bob5'(id:332) from 1.1.1.1:111
+2017-08-10 20:03:51.585584|INFO    |VirtualServerBase|1  |client connected 'Bob1'(id:307) from 1.1.1.1:111
+2017-08-10 22:03:48.530720|INFO    |VirtualServerBase|1  |client disconnected 'Bob5'(id:332) reason 'reasonmsg=leaving'
+2017-08-10 22:03:56.149739|INFO    |VirtualServerBase|1  |client disconnected 'Bob'(id:358) reason 'reasonmsg=leaving'
+2017-08-10 22:03:57.347433|INFO    |VirtualServerBase|1  |client disconnected 'Bob1'(id:307) reason 'reasonmsg=leaving'
+2017-08-10 22:37:00.526605|INFO    |VirtualServerBase|1  |client disconnected 'MyName'(id:2) reason 'reasonmsg=I'll be back!'
+2017-08-11 04:13:13.048590|INFO    |PktHandler    |1  |Dropping client 1 because of ping timeout 19 0 0
+2017-08-11 04:13:13.048673|INFO    |VirtualServerBase|1  |client disconnected 'friend-too'(id:3) reason 'reasonmsg=connection lost'
+2017-08-11 08:20:09.411654|INFO    |VirtualServer |1  |query client connected 'Unknown from 1.1.1.1:111'(id:73)
+2017-08-11 08:20:09.413145|INFO    |VirtualServerBase|1  |query client disconnected 'Scriptie'(id:73) reason 'reasonmsg=disconnecting'
+2017-08-11 10:33:26.055080|INFO    |VirtualServerBase|1  |client connected 'friend-too'(id:3) from 1.1.1.1:111
+2017-08-11 11:01:26.124125|INFO    |PktHandler    |1  |Dropping client 3 because of ping timeout 19 0 0
+2017-08-11 11:01:26.124215|INFO    |VirtualServerBase|1  |client disconnected 'friend-too'(id:3) reason 'reasonmsg=connection lost'
+2017-08-11 11:02:04.195838|INFO    |VirtualServerBase|1  |client connected 'friend-too'(id:3) from 1.1.1.1:111
+2017-08-11 18:22:53.318926|INFO    |VirtualServerBase|1  |client connected 'friend42'(id:10) from 1.1.1.1:111
+2017-08-11 19:13:52.315846|INFO    |VirtualServerBase|1  |client connected 'MyName'(id:2) from 1.1.1.1:111
+2017-08-11 19:13:55.665007|INFO    |VirtualServerBase|1  |client disconnected 'MyName'(id:2) reason 'reasonmsg=I'll be back!'
+2017-08-11 19:14:12.595452|INFO    |VirtualServerBase|1  |client connected 'MyName'(id:2) from 1.1.1.1:111
+2017-08-11 20:41:23.976470|INFO    |VirtualServerBase|1  |client connected 'Bob7'(id:345) from 1.1.1.1:111
+2017-08-11 20:41:24.380870|INFO    |VirtualServerBase|1  |file download from (id:0), '/icon_3964535759' by client 'Bob7'(id:345)
+2017-08-11 20:44:17.575437|INFO    |VirtualServerBase|1  |client disconnected 'Bob7'(id:345) reason 'reasonmsg=Verlassen'
+2017-08-11 21:11:29.495757|INFO    |VirtualServerBase|1  |client disconnected 'friend42'(id:10) reason 'reasonmsg=Verlassen'
+2017-08-11 22:32:24.992028|INFO    |VirtualServerBase|1  |client disconnected 'MyName'(id:2) reason 'reasonmsg=I'll be back!'
+2017-08-12 00:57:08.315931|INFO    |VirtualServerBase|1  |client connected 'friend-too1'(id:3) from 1.1.1.1:111
+2017-08-12 00:57:27.041806|INFO    |PktHandler    |1  |Dropping client 4 because of ping timeout 19 0 0
+2017-08-12 00:57:27.061191|INFO    |VirtualServerBase|1  |client disconnected 'friend-too'(id:3) reason 'reasonmsg=connection lost'
+2017-08-12 02:08:12.531905|INFO    |PktHandler    |1  |Dropping client 1 because of ping timeout 19 0 0
+2017-08-12 02:08:12.532013|INFO    |VirtualServerBase|1  |client disconnected 'friend-too1'(id:3) reason 'reasonmsg=connection lost'
+2017-08-12 08:11:06.875420|INFO    |VirtualServerBase|1  |client connected 'MyName'(id:2) from 1.1.1.1:111
+2017-08-12 08:11:26.208788|INFO    |VirtualServerBase|1  |client disconnected 'MyName'(id:2) reason 'reasonmsg=I'll be back!'
+2017-08-12 08:46:47.374573|INFO    |VirtualServerBase|1  |client connected 'AnotherName'(id:32) from 1.1.1.1:111
+2017-08-12 10:32:29.115136|INFO    |VirtualServerBase|1  |client connected 'friend-too'(id:3) from 1.1.1.1:111
+2017-08-12 11:00:12.854780|INFO    |VirtualServerBase|1  |client connected 'friend3'(id:366) from 1.1.1.1:111
+2017-08-12 11:10:41.076064|INFO    |VirtualServerBase|1  |client disconnected 'friend3'(id:366) reason 'reasonmsg=leaving'
+2017-08-12 11:10:43.702028|INFO    |VirtualServerBase|1  |client connected 'friend4'(id:351) from 1.1.1.1:111
+2017-08-12 11:11:52.421982|INFO    |VirtualServerBase|1  |client disconnected 'friend4'(id:351) reason 'reasonmsg=verlassen'
+2017-08-12 11:30:20.409594|INFO    |VirtualServerBase|1  |client connected 'friend3'(id:366) from 1.1.1.1:111
+2017-08-12 11:32:52.996793|INFO    |VirtualServerBase|1  |client disconnected 'friend3'(id:366) reason 'reasonmsg=leaving'
+2017-08-12 12:34:16.288916|INFO    |VirtualServerBase|1  |client connected 'Bob2'(id:25) from 1.1.1.1:111
+2017-08-12 12:34:38.910228|INFO    |VirtualServerBase|1  |client connected 'MyName'(id:2) from 1.1.1.1:111
+2017-08-12 13:00:16.464037|INFO    |VirtualServerBase|1  |client disconnected 'Bob2'(id:25) reason 'reasonmsg=Verlassen'
+2017-08-12 14:23:53.740430|INFO    |PktHandler    |1  |Dropping client 3 because of ping timeout 19 0 0
+2017-08-12 14:23:53.740516|INFO    |VirtualServerBase|1  |client disconnected 'friend-too'(id:3) reason 'reasonmsg=connection lost'
+2017-08-12 14:24:29.865562|INFO    |VirtualServerBase|1  |client connected 'friend-too'(id:3) from 1.1.1.1:111
+2017-08-12 17:02:25.560136|INFO    |VirtualServerBase|1  |client connected 'friend42'(id:10) from 1.1.1.1:111
+2017-08-12 19:21:12.038526|INFO    |VirtualServerBase|1  |client disconnected 'friend42'(id:10) reason 'reasonmsg=Verlassen'
+2017-08-12 20:38:22.547995|INFO    |VirtualServerBase|1  |client connected 'Bob2'(id:25) from 1.1.1.1:111
+2017-08-12 21:09:46.499688|INFO    |VirtualServerBase|1  |client disconnected 'Bob2'(id:25) reason 'reasonmsg=Verlassen'
+2017-08-12 23:54:05.160785|INFO    |VirtualServerBase|1  |client disconnected 'AnotherName'(id:32) reason 'reasonmsg'
+2017-08-13 00:31:02.297965|INFO    |VirtualServerBase|1  |client disconnected 'friend-too'(id:3) reason 'reasonmsg=⋛⋋( ՞ਊ ՞)⋌⋚ CAW CAW ⋛⋋( ՞ਊ ՞)⋌⋚'
+2017-08-13 00:39:19.154030|INFO    |VirtualServerBase|1  |client connected 'friend-tooLaptop'(id:175) from 1.1.1.1:111
+2017-08-13 00:44:06.684351|INFO    |VirtualServerBase|1  |client disconnected 'friend-tooLaptop'(id:175) reason 'reasonmsg=Verlassen'
+2017-08-13 00:44:28.078789|INFO    |VirtualServerBase|1  |client connected 'friend-tooLaptop'(id:175) from 1.1.1.1:111
+2017-08-13 00:48:45.421000|INFO    |VirtualServerBase|1  |client disconnected 'friend-tooLaptop'(id:175) reason 'reasonmsg=Verlassen'
+2017-08-13 00:49:10.600481|INFO    |VirtualServerBase|1  |client connected 'friend-tooLaptop'(id:175) from 1.1.1.1:111
+2017-08-13 01:15:24.555188|INFO    |VirtualServerBase|1  |client disconnected 'MyName'(id:2) reason 'reasonmsg=I'll be back!'
+2017-08-13 01:35:38.769974|INFO    |PktHandler    |1  |Dropping client 7 because of ping timeout 19 0 0
+2017-08-13 01:35:38.770056|INFO    |VirtualServerBase|1  |client disconnected 'friend-tooLaptop'(id:175) reason 'reasonmsg=connection lost'
+2017-08-13 08:16:23.271499|INFO    |VirtualServerBase|1  |client connected 'AnotherName'(id:32) from 1.1.1.1:111
+2017-08-13 08:35:55.172124|INFO    |VirtualServerBase|1  |client disconnected 'AnotherName'(id:32) reason 'reasonmsg'
+2017-08-13 09:51:38.720769|INFO    |VirtualServerBase|1  |client connected 'friend-too'(id:3) from 1.1.1.1:111
+2017-08-13 10:08:23.316564|INFO    |PktHandler    |1  |Dropping client 3 because of ping timeout 19 0 0
+2017-08-13 10:08:23.316657|INFO    |VirtualServerBase|1  |client disconnected 'friend-too'(id:3) reason 'reasonmsg=connection lost'
+2017-08-13 15:15:51.313887|INFO    |VirtualServerBase|1  |client connected 'friend-too'(id:3) from 1.1.1.1:111
+2017-08-13 17:14:56.868883|INFO    |VirtualServerBase|1  |client connected 'friend42'(id:10) from 1.1.1.1:111
+2017-08-13 19:00:50.625751|INFO    |VirtualServerBase|1  |client connected 'friend3'(id:366) from 1.1.1.1:111
+2017-08-13 19:00:56.554748|INFO    |VirtualServerBase|1  |client disconnected 'friend3'(id:366) reason 'reasonmsg=leaving'
+2017-08-13 19:08:05.842801|INFO    |VirtualServerBase|1  |client disconnected 'friend42'(id:10) reason 'reasonmsg=Verlassen'
+2017-08-13 19:49:06.170700|INFO    |VirtualServerBase|1  |client connected 'Bob2'(id:25) from 1.1.1.1:111
+2017-08-13 19:50:04.866373|INFO    |VirtualServerBase|1  |client connected 'MyName'(id:2) from 1.1.1.1:111
+2017-08-13 19:53:02.939072|INFO    |VirtualServerBase|1  |client disconnected 'MyName'(id:2) reason 'reasonmsg=I'll be back!'
+2017-08-13 19:53:05.601437|INFO    |VirtualServerBase|1  |client disconnected 'Bob2'(id:25) reason 'reasonmsg=Verlassen'
+2017-08-13 21:26:32.680954|INFO    |VirtualServerBase|1  |client disconnected 'friend-too'(id:3) reason 'reasonmsg=⋛⋋( ՞ਊ ՞)⋌⋚ CAW CAW ⋛⋋( ՞ਊ ՞)⋌⋚'
+2017-08-13 21:40:56.282903|INFO    |VirtualServerBase|1  |client connected 'AnotherName'(id:32) from 1.1.1.1:111
+2017-08-13 23:21:01.293985|INFO    |VirtualServerBase|1  |client disconnected 'AnotherName'(id:32) reason 'reasonmsg'
+2017-08-14 08:19:43.717485|INFO    |VirtualServerBase|1  |client connected 'AnotherName'(id:32) from 1.1.1.1:111
+2017-08-14 08:31:17.171084|INFO    |PktHandler    |1  |Dropping client 3 because of ping timeout 19 0 0
+2017-08-14 08:31:17.171164|INFO    |VirtualServerBase|1  |client disconnected 'AnotherName'(id:32) reason 'reasonmsg=connection lost'
+2017-08-14 08:31:30.402767|INFO    |VirtualServerBase|1  |client connected 'AnotherName'(id:32) from 1.1.1.1:111
+2017-08-14 09:25:27.277018|INFO    |VirtualServerBase|1  |client connected 'friend-too'(id:3) from 1.1.1.1:111
+2017-08-14 09:25:28.003643|INFO    |VirtualServerBase|1  |client connected 'friend-too1'(id:3) from 1.1.1.1:111
+2017-08-14 09:25:37.846795|INFO    |VirtualServerBase|1  |client disconnected 'friend-too1'(id:3) reason 'reasonmsg=⋛⋋( ՞ਊ ՞)⋌⋚ CAW CAW ⋛⋋( ՞ਊ ՞)⋌⋚'
+2017-08-14 09:38:43.118417|INFO    |VirtualServerBase|1  |client disconnected 'AnotherName'(id:32) reason 'reasonmsg'
+2017-08-14 15:20:28.375968|INFO    |VirtualServerBase|1  |client connected 'Bob2'(id:25) from 1.1.1.1:111
+2017-08-14 15:20:50.726953|INFO    |VirtualServerBase|1  |client disconnected 'Bob2'(id:25) reason 'reasonmsg=Verlassen'
+2017-08-14 15:51:59.683095|INFO    |VirtualServerBase|1  |client connected 'Bob2'(id:25) from 1.1.1.1:111
+2017-08-14 15:52:01.764899|INFO    |VirtualServerBase|1  |client disconnected 'Bob2'(id:25) reason 'reasonmsg=Verlassen'
+2017-08-14 16:29:02.483788|INFO    |VirtualServerBase|1  |client connected 'Bob2'(id:25) from 1.1.1.1:111
+2017-08-14 16:29:03.879330|INFO    |VirtualServerBase|1  |client disconnected 'Bob2'(id:25) reason 'reasonmsg=Verlassen'
+2017-08-14 17:32:28.579734|INFO    |VirtualServerBase|1  |client connected 'Bob2'(id:25) from 1.1.1.1:111
+2017-08-14 17:51:02.549346|INFO    |VirtualServerBase|1  |client disconnected 'Bob2'(id:25) reason 'reasonmsg=Verlassen'
+2017-08-14 19:55:37.583746|INFO    |VirtualServerBase|1  |client connected 'AnotherName'(id:32) from 1.1.1.1:111
+2017-08-14 20:04:00.383793|INFO    |VirtualServerBase|1  |client connected 'MyName'(id:2) from 1.1.1.1:111
+2017-08-14 20:05:18.822444|INFO    |VirtualServerBase|1  |client connected 'Bob'(id:358) from 1.1.1.1:111
+2017-08-14 20:05:50.274310|INFO    |VirtualServerBase|1  |client connected 'Bob1'(id:307) from 1.1.1.1:111
+2017-08-14 20:06:43.307628|INFO    |PktHandler    |1  |Dropping client 6 because of ping timeout 19 0 0
+2017-08-14 20:06:43.307699|INFO    |VirtualServerBase|1  |client disconnected 'Bob'(id:358) reason 'reasonmsg=connection lost'
+2017-08-14 20:06:55.603454|INFO    |VirtualServerBase|1  |client connected 'Bob'(id:358) from 1.1.1.1:111
+2017-08-14 20:32:09.799059|INFO    |VirtualServerBase|1  |client disconnected 'Bob1'(id:307) reason 'reasonmsg=leaving'
+2017-08-14 20:32:11.610189|INFO    |VirtualServerBase|1  |client disconnected 'Bob'(id:358) reason 'reasonmsg=leaving'
+2017-08-14 22:30:30.286452|INFO    |VirtualServerBase|1  |client connected 'Bob2'(id:25) from 1.1.1.1:111
+2017-08-14 23:04:09.507976|INFO    |VirtualServerBase|1  |client disconnected 'AnotherName'(id:32) reason 'reasonmsg'
+2017-08-15 01:19:33.931208|INFO    |PktHandler    |1  |Dropping client 1 because of ping timeout 19 0 0
+2017-08-15 01:19:33.931364|INFO    |VirtualServerBase|1  |client disconnected 'Bob2'(id:25) reason 'reasonmsg=connection lost'
+2017-08-15 02:06:49.116513|INFO    |VirtualServerBase|1  |client disconnected 'friend-too'(id:3) reason 'reasonmsg=⋛⋋( ՞ਊ ՞)⋌⋚ CAW CAW ⋛⋋( ՞ਊ ՞)⋌⋚'
+2017-08-15 03:03:09.011866|INFO    |VirtualServerBase|1  |client disconnected 'MyName'(id:2) reason 'reasonmsg=I'll be back!'
+2017-08-15 09:12:02.988738|INFO    |VirtualServerBase|1  |client connected 'Bob'(id:358) from 1.1.1.1:111
+2017-08-15 09:19:09.552225|INFO    |VirtualServerBase|1  |client connected 'Bob1'(id:307) from 1.1.1.1:111
+2017-08-15 09:37:21.632930|INFO    |VirtualServerBase|1  |client connected 'friend-too'(id:3) from 1.1.1.1:111
+2017-08-15 10:01:03.530859|INFO    |VirtualServerBase|1  |client disconnected 'Bob'(id:358) reason 'reasonmsg=leaving'
+2017-08-15 10:45:43.509601|INFO    |VirtualServerBase|1  |client disconnected 'Bob1'(id:307) reason 'reasonmsg=leaving'
+2017-08-15 11:04:31.472120|INFO    |VirtualServerBase|1  |client connected 'friend-too1'(id:3) from 1.1.1.1:111
+2017-08-15 11:04:54.123319|INFO    |PktHandler    |1  |Cleaning up connection because of 14 resends of COMMAND packet
+2017-08-15 11:04:54.131568|INFO    |PktHandler    |1  |Dropping client 5 because of resend timeout
+2017-08-15 11:04:54.131615|INFO    |VirtualServerBase|1  |client disconnected 'friend-too'(id:3) reason 'reasonmsg=connection lost'
+2017-08-15 11:36:17.265073|INFO    |VirtualServerBase|1  |client connected 'friend42[Laptop]'(id:10) from 1.1.1.1:111
+2017-08-15 11:38:17.504989|INFO    |VirtualServerBase|1  |client disconnected 'friend42[Laptop]'(id:10) reason 'reasonmsg=Verlassen'
+2017-08-15 12:02:45.597145|INFO    |VirtualServerBase|1  |client connected 'MyName'(id:2) from 1.1.1.1:111
+2017-08-15 12:22:47.238446|INFO    |VirtualServerBase|1  |client connected 'Bob2'(id:25) from 1.1.1.1:111
+2017-08-15 15:19:33.851718|INFO    |PktHandler    |1  |Dropping client 5 because of ping timeout 19 0 0
+2017-08-15 15:19:34.144820|INFO    |VirtualServerBase|1  |client disconnected 'Bob2'(id:25) reason 'reasonmsg=connection lost'
+2017-08-15 18:59:46.493555|INFO    |VirtualServerBase|1  |client connected 'friend42[Laptop]'(id:10) from 1.1.1.1:111
+2017-08-15 19:05:52.571112|INFO    |VirtualServerBase|1  |client disconnected 'friend42[Laptop]'(id:10) reason 'reasonmsg=Verlassen'
+2017-08-15 20:58:15.428621|INFO    |VirtualServerBase|1  |client connected 'friend-too11'(id:3) from 1.1.1.1:111
+2017-08-15 20:58:15.738552|INFO    |VirtualServerBase|1  |client connected 'MyName1'(id:2) from 1.1.1.1:111
+2017-08-15 20:58:35.771803|INFO    |PktHandler    |1  |Cleaning up connection because of 13 resends of COMMAND packet
+2017-08-15 20:58:35.771853|INFO    |PktHandler    |1  |Dropping client 4 because of resend timeout
+2017-08-15 20:58:35.771890|INFO    |VirtualServerBase|1  |client disconnected 'MyName'(id:2) reason 'reasonmsg=connection lost'
+2017-08-15 20:58:36.072695|INFO    |PktHandler    |1  |Cleaning up connection because of 14 resends of COMMAND packet
+2017-08-15 20:58:36.116747|INFO    |PktHandler    |1  |Dropping client 1 because of resend timeout
+2017-08-15 20:58:36.116803|INFO    |VirtualServerBase|1  |client disconnected 'friend-too1'(id:3) reason 'reasonmsg=connection lost'
+2017-08-16 02:01:13.763210|INFO    |VirtualServerBase|1  |client connected 'Bob4'(id:368) from 1.1.1.1:111
+2017-08-16 02:01:15.854327|INFO    |VirtualServerBase|1  |file download from (id:0), '/icon_3474710075' by client 'Bob4'(id:368)
+2017-08-16 02:01:16.152485|INFO    |VirtualServerBase|1  |file download from (id:0), '/icon_1567306838' by client 'Bob4'(id:368)
+2017-08-16 02:01:16.152580|INFO    |VirtualServerBase|1  |file download from (id:0), '/icon_1071151021' by client 'Bob4'(id:368)
+2017-08-16 02:01:16.152638|INFO    |VirtualServerBase|1  |file download from (id:0), '/icon_4117014590' by client 'Bob4'(id:368)
+2017-08-16 02:01:16.152693|INFO    |VirtualServerBase|1  |file download from (id:0), '/icon_1217522534' by client 'Bob4'(id:368)
+2017-08-16 02:01:16.152735|INFO    |VirtualServerBase|1  |client disconnected 'Bob4'(id:368) reason 'reasonmsg=leaving'
+2017-08-16 02:30:24.116405|INFO    |VirtualServerBase|1  |client disconnected 'MyName1'(id:2) reason 'reasonmsg=I'll be back!'
+2017-08-16 02:32:12.820177|INFO    |VirtualServerBase|1  |client disconnected 'friend-too11'(id:3) reason 'reasonmsg=⋛⋋( ՞ਊ ՞)⋌⋚ CAW CAW ⋛⋋( ՞ਊ ՞)⋌⋚'
+2017-08-16 10:45:06.063476|INFO    |VirtualServerBase|1  |client connected 'friend-too'(id:3) from 1.1.1.1:111
+2017-08-16 12:57:13.790668|INFO    |VirtualServerBase|1  |client connected 'MyName'(id:2) from 1.1.1.1:111
+2017-08-16 13:02:38.256795|INFO    |VirtualServerBase|1  |client connected 'friend42'(id:10) from 1.1.1.1:111
+2017-08-16 13:43:45.332788|INFO    |VirtualServerBase|1  |client disconnected 'MyName'(id:2) reason 'reasonmsg=I'll be back!'
+2017-08-16 13:43:51.013416|INFO    |VirtualServerBase|1  |client connected 'MyName'(id:2) from 1.1.1.1:111
+2017-08-16 15:45:37.896036|INFO    |VirtualServerBase|1  |client disconnected 'friend42'(id:10) reason 'reasonmsg=Verlassen'
+2017-08-16 16:45:15.043816|INFO    |VirtualServerBase|1  |client connected 'friend42'(id:10) from 1.1.1.1:111
+2017-08-16 17:23:36.030205|INFO    |VirtualServerBase|1  |client connected 'Bob'(id:358) from 1.1.1.1:111
+2017-08-16 17:24:57.224026|INFO    |VirtualServerBase|1  |client connected 'Bob5'(id:332) from 1.1.1.1:111
+2017-08-16 18:50:23.821766|INFO    |VirtualServerBase|1  |client connected 'Bob2'(id:25) from 1.1.1.1:111
+2017-08-16 19:49:05.808674|INFO    |VirtualServerBase|1  |client disconnected 'friend42'(id:10) reason 'reasonmsg=Verlassen'
+2017-08-16 19:54:14.700574|INFO    |VirtualServerBase|1  |client disconnected 'Bob'(id:358) reason 'reasonmsg=leaving'
+2017-08-16 19:54:36.633803|INFO    |VirtualServerBase|1  |client disconnected 'Bob2'(id:25) reason 'reasonmsg=Verlassen'
+2017-08-16 20:01:03.564475|INFO    |VirtualServerBase|1  |client connected 'Bob8'(id:153) from 1.1.1.1:111
+2017-08-16 20:05:20.355162|INFO    |VirtualServerBase|1  |client disconnected 'Bob8'(id:153) reason 'reasonmsg=Verlassen'
+2017-08-16 20:05:25.263710|INFO    |VirtualServerBase|1  |client connected 'Bob8'(id:153) from 1.1.1.1:111
+2017-08-16 20:05:27.461365|INFO    |VirtualServerBase|1  |client connected 'Bob2'(id:25) from 1.1.1.1:111
+2017-08-16 20:07:04.318833|INFO    |VirtualServerBase|1  |client disconnected 'Bob5'(id:332) reason 'reasonmsg=leaving'
+2017-08-16 20:09:33.057075|INFO    |VirtualServerBase|1  |client connected 'Bob3'(id:369) from 1.1.1.1:111
+2017-08-16 20:09:33.684926|INFO    |VirtualServerBase|1  |file download from (id:0), '/icon_2179030972' by client 'Bob3'(id:369)
+2017-08-16 20:10:32.741650|INFO    |VirtualServerBase|1  |client disconnected 'Bob3'(id:369) reason 'reasonmsg'
+2017-08-16 21:29:42.559641|INFO    |PktHandler    |1  |Dropping client 5 because of ping timeout 19 0 0
+2017-08-16 21:29:42.559841|INFO    |VirtualServerBase|1  |client disconnected 'Bob2'(id:25) reason 'reasonmsg=connection lost'
+2017-08-16 21:32:47.255507|INFO    |VirtualServerBase|1  |client disconnected 'Bob8'(id:153) reason 'reasonmsg=Verlassen'
+2017-08-16 22:12:37.263378|INFO    |VirtualServerBase|1  |client connected 'AnotherName'(id:32) from 1.1.1.1:111
+2017-08-16 23:36:09.831347|INFO    |VirtualServerBase|1  |client disconnected 'AnotherName'(id:32) reason 'reasonmsg'
+2017-08-17 01:17:44.014521|INFO    |VirtualServerBase|1  |client disconnected 'friend-too'(id:3) reason 'reasonmsg=⋛⋋( ՞ਊ ՞)⋌⋚ CAW CAW ⋛⋋( ՞ਊ ՞)⋌⋚'
+2017-08-17 02:46:29.247468|INFO    |VirtualServerBase|1  |client disconnected 'MyName'(id:2) reason 'reasonmsg=I'll be back!'
+2017-08-17 04:39:28.054228|INFO    |VirtualServerBase|1  |client connected 'AnotherName'(id:32) from 1.1.1.1:111
+2017-08-17 05:18:16.084365|INFO    |VirtualServerBase|1  |client connected 'friend4'(id:351) from 1.1.1.1:111
+2017-08-17 05:18:40.492625|INFO    |VirtualServerBase|1  |client disconnected 'friend4'(id:351) reason 'reasonmsg=verlassen'
+2017-08-17 10:19:08.064712|INFO    |VirtualServerBase|1  |client connected 'friend42'(id:10) from 1.1.1.1:111
+2017-08-17 10:29:44.690034|INFO    |VirtualServerBase|1  |client connected 'friend-too'(id:3) from 1.1.1.1:111
+2017-08-17 11:23:03.688310|INFO    |VirtualServerBase|1  |client disconnected 'friend42'(id:10) reason 'reasonmsg=Verlassen'
+2017-08-17 13:00:21.353834|INFO    |VirtualServerBase|1  |client connected 'MyName'(id:2) from 1.1.1.1:111
+2017-08-17 13:00:23.621436|INFO    |VirtualServerBase|1  |client disconnected 'MyName'(id:2) reason 'reasonmsg=I'll be back!'
+2017-08-17 13:00:41.154632|INFO    |VirtualServerBase|1  |client connected 'MyName'(id:2) from 1.1.1.1:111
+2017-08-17 13:59:48.786403|INFO    |VirtualServerBase|1  |client disconnected 'MyName'(id:2) reason 'reasonmsg=I'll be back!'
+2017-08-17 14:00:56.113906|INFO    |VirtualServerBase|1  |client connected 'MyName'(id:2) from 1.1.1.1:111
+2017-08-17 14:18:32.293594|INFO    |VirtualServerBase|1  |client connected 'friend-too1'(id:3) from 1.1.1.1:111
+2017-08-17 14:18:37.532235|INFO    |VirtualServerBase|1  |client disconnected 'friend-too1'(id:3) reason 'reasonmsg=(-__-)--<>--'
+2017-08-17 14:43:52.513954|INFO    |VirtualServerBase|1  |client connected 'friend42[Laptop]'(id:10) from 1.1.1.1:111
+2017-08-17 14:58:12.268734|INFO    |VirtualServerBase|1  |client disconnected 'friend42[Laptop]'(id:10) reason 'reasonmsg=Verlassen'
+2017-08-17 16:07:58.740351|INFO    |VirtualServerBase|1  |client disconnected 'MyName'(id:2) reason 'reasonmsg=I'll be back!'
+2017-08-17 19:26:38.309218|INFO    |VirtualServerBase|1  |client connected 'MyName'(id:2) from 1.1.1.1:111
+2017-08-17 20:09:54.190113|INFO    |VirtualServerBase|1  |client connected 'friend42'(id:10) from 1.1.1.1:111
+2017-08-17 20:39:40.993159|INFO    |VirtualServerBase|1  |client connected 'Bob2'(id:25) from 1.1.1.1:111
+2017-08-17 21:41:35.139279|INFO    |PktHandler    |1  |Dropping client 8 because of ping timeout 19 0 0
+2017-08-17 21:41:35.139427|INFO    |VirtualServerBase|1  |client disconnected 'Bob2'(id:25) reason 'reasonmsg=connection lost'
+2017-08-17 21:43:52.918252|INFO    |VirtualServerBase|1  |client connected 'Bob2'(id:25) from 1.1.1.1:111
+2017-08-17 22:09:57.300180|INFO    |VirtualServerBase|1  |client disconnected 'AnotherName'(id:32) reason 'reasonmsg'
+2017-08-17 22:30:19.506030|INFO    |VirtualServerBase|1  |client disconnected 'friend42'(id:10) reason 'reasonmsg=Verlassen'
+2017-08-17 22:33:23.384670|INFO    |PktHandler    |1  |Dropping client 9 because of ping timeout 19 0 0
+2017-08-17 22:33:23.384822|INFO    |VirtualServerBase|1  |client disconnected 'Bob2'(id:25) reason 'reasonmsg=connection lost'
+2017-08-17 22:48:50.478830|INFO    |VirtualServerBase|1  |client disconnected 'friend-too'(id:3) reason 'reasonmsg=⋛⋋( ՞ਊ ՞)⋌⋚ CAW CAW ⋛⋋( ՞ਊ ՞)⋌⋚'
+2017-08-17 22:55:59.803515|INFO    |VirtualServerBase|1  |client disconnected 'MyName'(id:2) reason 'reasonmsg=I'll be back!'
+2017-08-18 07:17:42.483462|INFO    |VirtualServerBase|1  |client connected 'MyName'(id:2) from 1.1.1.1:111
+2017-08-18 08:31:23.235013|INFO    |VirtualServerBase|1  |client connected 'friend-too'(id:3) from 1.1.1.1:111
+2017-08-18 08:31:25.694494|INFO    |VirtualServerBase|1  |client disconnected 'friend-too'(id:3) reason 'reasonmsg=⋛⋋( ՞ਊ ՞)⋌⋚ CAW CAW ⋛⋋( ՞ਊ ՞)⋌⋚'
+2017-08-18 08:31:41.898903|INFO    |VirtualServerBase|1  |client connected 'friend-too'(id:3) from 1.1.1.1:111
+2017-08-18 09:24:38.929700|INFO    |PktHandler    |1  |Dropping client 4 because of ping timeout 19 0 0
+2017-08-18 09:24:38.929786|INFO    |VirtualServerBase|1  |client disconnected 'friend-too'(id:3) reason 'reasonmsg=connection lost'
+2017-08-18 17:11:25.021940|INFO    |VirtualServerBase|1  |client connected 'friend-too'(id:3) from 1.1.1.1:111
+2017-08-18 17:28:52.572652|INFO    |VirtualServerBase|1  |client disconnected 'AudioBot'(id:253) reason 'reasonmsg=Good night'
+2017-08-18 17:31:54.347234|INFO    |VirtualServerBase|1  |client connected 'AudioBot'(id:253) from 1.1.1.1:111
+2017-08-18 23:37:04.221196|INFO    |PktHandler    |1  |Dropping client 1 because of ping timeout 19 0 0
+2017-08-18 23:37:04.221276|INFO    |VirtualServerBase|1  |client disconnected 'MyName'(id:2) reason 'reasonmsg=connection lost'
+2017-08-18 23:37:29.143624|INFO    |VirtualServerBase|1  |client connected 'MyName'(id:2) from 1.1.1.1:111
+2017-08-18 23:42:21.943262|INFO    |VirtualServerBase|1  |client disconnected 'friend-too'(id:3) reason 'reasonmsg=⋛⋋( ՞ਊ ՞)⋌⋚ CAW CAW ⋛⋋( ՞ਊ ՞)⋌⋚'
+2017-08-19 08:56:25.105617|INFO    |VirtualServerBase|1  |client connected 'friend-too'(id:3) from 1.1.1.1:111
+2017-08-19 10:41:50.697780|INFO    |VirtualServerBase|1  |client connected 'AnotherName'(id:32) from 1.1.1.1:111
+2017-08-19 11:55:17.202400|INFO    |VirtualServerBase|1  |client connected 'MyName1'(id:2) from 1.1.1.1:111
+2017-08-19 11:55:32.502385|INFO    |VirtualServerBase|1  |client disconnected 'MyName1'(id:2) reason 'reasonmsg=I'll be back!'
+2017-08-19 12:42:03.824483|INFO    |VirtualServerBase|1  |client connected 'Bob9'(id:109) from 1.1.1.1:111
+2017-08-19 14:13:18.214555|INFO    |VirtualServerBase|1  |client disconnected 'Bob9'(id:109) reason 'reasonmsg=Verlassen'
+2017-08-20 00:16:20.361486|INFO    |VirtualServerBase|1  |client disconnected 'friend-too'(id:3) reason 'reasonmsg=⋛⋋( ՞ਊ ՞)⋌⋚ CAW CAW ⋛⋋( ՞ਊ ՞)⋌⋚'
+2017-08-20 03:31:33.778582|INFO    |VirtualServerBase|1  |client disconnected 'MyName'(id:2) reason 'reasonmsg=I'll be back!'
+2017-08-20 03:55:49.658164|INFO    |VirtualServerBase|1  |client disconnected 'AnotherName'(id:32) reason 'reasonmsg'
+2017-08-20 10:07:43.311481|INFO    |VirtualServerBase|1  |client connected 'friend-too'(id:3) from 1.1.1.1:111
+2017-08-20 11:50:00.779662|INFO    |VirtualServerBase|1  |client connected 'MyName'(id:2) from 1.1.1.1:111
+2017-08-20 12:26:20.542593|INFO    |VirtualServerBase|1  |client disconnected 'MyName'(id:2) reason 'reasonmsg=I'll be back!'
+2017-08-20 12:29:11.427710|INFO    |VirtualServerBase|1  |client connected 'AnotherName'(id:32) from 1.1.1.1:111
+2017-08-20 12:29:13.762396|INFO    |VirtualServerBase|1  |client connected 'MyName'(id:2) from 1.1.1.1:111
+2017-08-20 18:42:28.761968|INFO    |VirtualServerBase|1  |client connected 'Bob'(id:358) from 1.1.1.1:111
+2017-08-20 18:43:47.168890|INFO    |VirtualServerBase|1  |client connected 'Bob5'(id:332) from 1.1.1.1:111
+2017-08-20 19:31:54.551967|INFO    |VirtualServerBase|1  |client disconnected 'Bob'(id:358) reason 'reasonmsg=leaving'
+2017-08-20 19:32:15.682465|INFO    |VirtualServerBase|1  |client disconnected 'Bob5'(id:332) reason 'reasonmsg=leaving'
+2017-08-20 23:15:28.241550|INFO    |VirtualServerBase|1  |client disconnected 'AnotherName'(id:32) reason 'reasonmsg'
+2017-08-20 23:56:34.849333|INFO    |VirtualServerBase|1  |client disconnected 'friend-too'(id:3) reason 'reasonmsg=⋛⋋( ՞ਊ ՞)⋌⋚ CAW CAW ⋛⋋( ՞ਊ ՞)⋌⋚'
+2017-08-21 00:59:17.418274|INFO    |VirtualServerBase|1  |client disconnected 'MyName'(id:2) reason 'reasonmsg=I'll be back!'
+2017-08-21 09:45:32.217692|INFO    |VirtualServerBase|1  |client connected 'AnotherName'(id:32) from 1.1.1.1:111
+2017-08-21 09:56:16.146174|INFO    |VirtualServerBase|1  |client connected 'friend-too'(id:3) from 1.1.1.1:111
+2017-08-21 12:16:10.678347|INFO    |VirtualServerBase|1  |client connected 'friend42'(id:10) from 1.1.1.1:111
+2017-08-21 12:25:45.222864|INFO    |VirtualServerBase|1  |client disconnected 'friend42'(id:10) reason 'reasonmsg=Verlassen'
+2017-08-21 12:27:24.320579|INFO    |VirtualServerBase|1  |client connected 'friend42'(id:10) from 1.1.1.1:111
+2017-08-21 13:06:16.325203|INFO    |VirtualServerBase|1  |client disconnected 'friend42'(id:10) reason 'reasonmsg=Verlassen'
+2017-08-21 13:10:18.543214|INFO    |VirtualServerBase|1  |client connected 'MyName'(id:2) from 1.1.1.1:111
+2017-08-21 17:48:48.282792|INFO    |VirtualServerBase|1  |client connected 'Bob3'(id:369) from 1.1.1.1:111
+2017-08-21 17:48:48.385261|INFO    |VirtualServerBase|1  |file download from (id:0), '/icon_2568555213' by client 'Bob3'(id:369)
+2017-08-21 17:48:48.667526|INFO    |VirtualServerBase|1  |file download from (id:0), '/icon_1223793887' by client 'Bob3'(id:369)
+2017-08-21 17:48:49.165790|INFO    |VirtualServerBase|1  |file download from (id:0), '/icon_3474710075' by client 'Bob3'(id:369)
+2017-08-21 17:48:49.247584|INFO    |VirtualServerBase|1  |file download from (id:0), '/icon_1567306838' by client 'Bob3'(id:369)
+2017-08-21 17:48:49.247670|INFO    |VirtualServerBase|1  |file download from (id:0), '/icon_1071151021' by client 'Bob3'(id:369)
+2017-08-21 17:48:49.247727|INFO    |VirtualServerBase|1  |file download from (id:0), '/icon_4117014590' by client 'Bob3'(id:369)
+2017-08-21 17:48:49.247785|INFO    |VirtualServerBase|1  |file download from (id:0), '/icon_1217522534' by client 'Bob3'(id:369)
+2017-08-21 17:48:49.489989|INFO    |VirtualServerBase|1  |file download from (id:0), '/icon_3389063198' by client 'Bob3'(id:369)
+2017-08-21 17:48:49.532231|INFO    |VirtualServerBase|1  |file download from (id:0), '/icon_1721100479' by client 'Bob3'(id:369)
+2017-08-21 17:49:31.612387|INFO    |VirtualServerBase|1  |client disconnected 'Bob3'(id:369) reason 'reasonmsg'
+2017-08-21 19:33:16.800001|INFO    |VirtualServerBase|1  |client connected 'friend42[Laptop]'(id:10) from 1.1.1.1:111
+2017-08-21 19:39:42.893026|INFO    |VirtualServerBase|1  |client disconnected 'friend42[Laptop]'(id:10) reason 'reasonmsg=Verlassen'
+2017-08-21 19:48:30.898092|INFO    |VirtualServerBase|1  |client connected 'friend42'(id:10) from 1.1.1.1:111
+2017-08-21 21:17:09.681855|INFO    |VirtualServerBase|1  |client disconnected 'friend42'(id:10) reason 'reasonmsg=Verlassen'
+2017-08-21 23:56:38.834583|INFO    |VirtualServerBase|1  |client disconnected 'friend-too'(id:3) reason 'reasonmsg=⋛⋋( ՞ਊ ՞)⋌⋚ CAW CAW ⋛⋋( ՞ਊ ՞)⋌⋚'
+2017-08-21 23:56:50.397457|INFO    |VirtualServerBase|1  |client disconnected 'AnotherName'(id:32) reason 'reasonmsg'
+2017-08-22 03:29:52.297293|INFO    |VirtualServer |1  |query client connected 'Unknown from 1.1.1.1:111'(id:73)
+2017-08-22 03:29:52.297760|INFO    |VirtualServerBase|1  |query client disconnected 'TravisCI'(id:73) reason 'reasonmsg=disconnecting'
+2017-08-22 03:50:04.148463|INFO    |VirtualServer |1  |query client connected 'Unknown from 1.1.1.1:111'(id:73)
+2017-08-22 03:50:04.149640|INFO    |VirtualServerBase|1  |query client disconnected 'TravisCI'(id:73) reason 'reasonmsg=disconnecting'
+2017-08-22 03:57:33.093694|INFO    |PktHandler    |1  |Dropping client 5 because of ping timeout 19 0 0
+2017-08-22 03:57:33.384352|INFO    |VirtualServerBase|1  |client disconnected 'MyName'(id:2) reason 'reasonmsg=connection lost'
+2017-08-22 09:30:00.793570|INFO    |VirtualServerBase|1  |client connected 'AnotherName'(id:32) from 1.1.1.1:111
+2017-08-22 09:33:42.206040|INFO    |VirtualServerBase|1  |client connected 'friend-too'(id:3) from 1.1.1.1:111
+2017-08-22 14:01:11.483401|INFO    |VirtualServerBase|1  |client connected 'MyName'(id:2) from 1.1.1.1:111
+2017-08-22 16:05:10.179786|INFO    |VirtualServerBase|1  |client connected 'Bob2'(id:25) from 1.1.1.1:111
+2017-08-22 16:06:16.552641|INFO    |VirtualServerBase|1  |client connected 'Bob8'(id:153) from 1.1.1.1:111
+2017-08-22 17:19:39.912175|INFO    |PktHandler    |1  |Dropping client 7 because of ping timeout 19 0 0
+2017-08-22 17:19:39.912335|INFO    |VirtualServerBase|1  |client disconnected 'Bob2'(id:25) reason 'reasonmsg=connection lost'
+2017-08-22 17:30:35.781193|INFO    |VirtualServerBase|1  |client disconnected 'Bob8'(id:153) reason 'reasonmsg=Verlassen'
+2017-08-22 20:24:26.336776|INFO    |VirtualServerBase|1  |client connected 'AudioBot1'(id:253) from 1.1.1.1:111
+2017-08-22 20:25:40.700370|INFO    |VirtualServerBase|1  |client connected 'AudioBot2'(id:253) from 1.1.1.1:111
+2017-08-22 20:25:58.547748|INFO    |PktHandler    |1  |Dropping client 9 because of ping timeout 19 0 0
+2017-08-22 20:25:58.547833|INFO    |VirtualServerBase|1  |client disconnected 'AudioBot1'(id:253) reason 'reasonmsg=connection lost'
+2017-08-22 20:28:39.756364|INFO    |PktHandler    |1  |Dropping client 10 because of ping timeout 19 0 0
+2017-08-22 20:28:39.756457|INFO    |VirtualServerBase|1  |client disconnected 'AudioBot2'(id:253) reason 'reasonmsg=connection lost'
+2017-08-22 21:17:29.458102|INFO    |VirtualServerBase|1  |client connected 'friend42[Laptop]'(id:10) from 1.1.1.1:111
+2017-08-22 21:31:56.792542|INFO    |VirtualServerBase|1  |client disconnected 'friend42[Laptop]'(id:10) reason 'reasonmsg=Verlassen'
+2017-08-22 22:54:25.377863|INFO    |VirtualServerBase|1  |client disconnected 'friend-too'(id:3) reason 'reasonmsg=⋛⋋( ՞ਊ ՞)⋌⋚ CAW CAW ⋛⋋( ՞ਊ ՞)⋌⋚'
+2017-08-22 23:14:44.718039|INFO    |VirtualServerBase|1  |client disconnected 'MyName'(id:2) reason 'reasonmsg=I'll be back!'
+2017-08-22 23:25:30.857880|INFO    |VirtualServerBase|1  |client disconnected 'AnotherName'(id:32) reason 'reasonmsg'
+2017-08-23 06:39:45.905350|INFO    |VirtualServerBase|1  |client connected 'friend42[Laptop]'(id:10) from 1.1.1.1:111
+2017-08-23 06:40:51.787463|INFO    |VirtualServerBase|1  |client disconnected 'friend42[Laptop]'(id:10) reason 'reasonmsg=Verlassen'
+2017-08-23 07:56:28.182518|INFO    |VirtualServerBase|1  |client connected 'AnotherName'(id:32) from 1.1.1.1:111
+2017-08-23 10:13:15.045121|INFO    |VirtualServerBase|1  |client connected 'friend-too'(id:3) from 1.1.1.1:111

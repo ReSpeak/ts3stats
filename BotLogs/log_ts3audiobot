@@ -1,0 +1,205 @@
+[09:57:25]   Info: [============ TS3AudioBot started =============]
+[09:57:25]   Info: [=== Date/Time: Wednesday, August 2, 2017 9:57:25 AM
+[09:57:25]   Info: [=== Version: 0.5.0-unstable.10/develop/d9b5ca12
+[09:57:25]   Info: [==============================================]
+[09:57:25]   Info: [============ Initializing Commands ===========]
+[09:57:25]   Info: [============ Initializing Modules ============]
+[09:57:27]   Info: Devupdate disabled
+[09:57:27]   Info: [=========== Initializing Factories ===========]
+[09:57:27]   Info: [=========== Registering callbacks ============]
+[09:57:27]   Info: [================= Finalizing =================]
+[09:57:27]Warning: Rule has no matcher
+[09:57:27]   Info: [==================== Done ====================]
+[10:03:26]  Debug: MB Got message from MyName: !pl [URL]https://www.youtube.com/watch?v=FgZP8A4OSWw[/URL]
+[10:03:26]  Debug: SM User MyName created session with the bot
+[10:03:26]Warning: Rule has no matcher
+[10:03:26]  Debug: YT Ruined!
+[10:03:32]  Debug: YT Saved!
+[10:03:32]  Debug: PM ar start: Youtube ID:FgZP8A4OSWw
+[10:06:30]  Debug: Connection to song lost, retrying at 00:02:58.7200000
+[10:06:46]Warning: SongStoppedHook could not play Next: No next song could be played
+[16:38:31]  Debug: MB Got message from MyName: !history id 573
+[16:38:31]  Debug: SM User MyName created session with the bot
+[13:34:33]  Debug: MB Got message from friend-too: !image [URL]https://s-media-cache-ak0.pinimg.com/736x/af/7c/24/af7c24af687d7839b9481d6eaf326b5b--dota--anime-style.jpg[/URL]
+[13:34:33]  Debug: SM User friend-too created session with the bot
+[13:34:44]  Debug: MB Got message from friend-too: !help !image
+[19:21:24]  Debug: MB Got message from MyName: !hi tit requiem
+[19:21:24]  Debug: SM User MyName created session with the bot
+[19:21:51]  Debug: MB Got message from friend-too: !hi tits e
+[19:21:51]  Debug: SM User friend-too created session with the bot
+[19:22:37]  Debug: MB Got message from friend-too: !he hallo
+[19:22:54]  Debug: MB Got message from friend-too: !hallo
+[00:28:32]  Debug: MB Got message from MyName: !pl [URL]https://www.youtube.com/watch?v=vSgkd4WnA4Y[/URL]
+[00:28:32]  Debug: PM ar start: Youtube ID:vSgkd4WnA4Y
+[00:28:41]  Debug: MB Got message from MyName: !vo 30
+[00:29:12]  Debug: MB Got message from MyName: !st
+[13:02:56]  Debug: MB Got message from friend3: !pl [URL]https://www.youtube.com/watch?v=PQtRXqBQETA[/URL]
+[13:02:56]  Debug: SM User friend3 created session with the bot
+[13:02:56]Warning: TH Web error: [403] Forbidden
+[13:02:56]  Debug: YT Ruined!
+[13:03:03]  Debug: YT Saved!
+[13:03:03]  Debug: PM ar start: Youtube ID:PQtRXqBQETA
+[13:04:09]  Debug: MB Got message from friend3: !stop
+[13:08:00]  Debug: MB Got message from friend3: !hi play (!take 1 (!rng 0 14) "," 400,401,402,403,404,405,406,407,408,409,410,573,587,676)
+[13:08:01]Warning: TH Web error: [403] Forbidden
+[13:08:01]  Debug: YT Ruined!
+[13:08:05]  Debug: YT Saved!
+[13:08:05]  Debug: PM ar start: Youtube ID:N4z2Ey4PYT4
+[13:08:15]  Debug: MB Got message from friend3: !next
+[13:08:21]  Debug: MB Got message from friend3: !syop
+[13:08:24]  Debug: MB Got message from friend3: !stop
+[13:08:45]  Debug: MB Got message from friend3: !pl [URL]https://www.youtube.com/watch?v=l65JBbv-_XQ[/URL]
+[13:08:45]  Debug: PM ar start: Youtube ID:l65JBbv-_XQ
+[13:09:13]  Debug: MB Got message from friend3: !history play (!rng 1 (!take 1 (!history id last)))
+[13:09:13]Warning: TH Web error: [403] Forbidden
+[13:09:13]  Debug: YT Ruined!
+[13:09:16]  Debug: YT Saved!
+[13:09:16]  Debug: PM ar start: Youtube ID:OilPvUo2vac
+[13:09:20]  Debug: MB Got message from friend3: !history play (!rng 1 (!take 1 (!history id last)))
+[13:09:20]Warning: TH Web error: [403] Forbidden
+[13:09:20]  Debug: YT Ruined!
+[13:09:24]  Debug: YT Saved!
+[13:09:24]  Debug: PM ar start: Youtube ID:QeipGU3jAGc
+[13:09:26]  Debug: MB Got message from friend3: !next
+[13:09:30]  Debug: MB Got message from friend3: !next
+[13:09:53]  Debug: MB Got message from friend3: !stop
+[13:10:36]  Debug: MB Got message from friend3: !music
+[13:11:07]  Debug: MB Got message from friend4: !help
+[13:11:07]  Debug: SM User friend4 created session with the bot
+[13:11:19]  Debug: MB Got message from friend4: !version
+[15:46:45]  Debug: MB Got message from friend-too: [URL]https://www.reddit.com/r/DotA2/comments/6t4r08/has_science_gone_too_far/[/URL]
+[15:04:16]  Debug: MB Got message from friend42: !yt [URL]https://www.youtube.com/watch?v=HYWdgBtSM8s[/URL]
+[15:04:17]  Debug: SM User friend42 created session with the bot
+[15:04:18]Warning: TH Web error: [403] Forbidden
+[15:04:18]  Debug: YT Ruined!
+[15:05:23]  Debug: YT Saved!
+[15:05:23]  Debug: PM ar start: Youtube ID:HYWdgBtSM8s
+[15:08:52]  Debug: Connection to song lost, retrying at 00:03:28.9600000
+[15:09:14]Warning: SongStoppedHook could not play Next: No next song could be played
+[15:20:30]  Debug: MB Got message from friend42: !yt [URL]https://www.youtube.com/watch?v=3T-q5B3x4lk[/URL]
+[15:20:31]Warning: TH Web error: [403] Forbidden
+[15:20:31]  Debug: YT Ruined!
+[15:20:33]  Debug: YT Saved!
+[15:20:33]  Debug: PM ar start: Youtube ID:3T-q5B3x4lk
+[15:27:57]Warning: SongStoppedHook could not play Next: No next song could be played
+[15:47:53]  Debug: MB Got message from friend42: !yt [URL]https://www.youtube.com/watch?v=n4RjJKxsamQ[/URL]
+[15:47:54]Warning: TH Web error: [403] Forbidden
+[15:47:54]  Debug: YT Ruined!
+[15:47:56]  Debug: YT Saved!
+[15:47:56]  Debug: PM ar start: Youtube ID:n4RjJKxsamQ
+[15:52:40]Warning: SongStoppedHook could not play Next: No next song could be played
+[15:53:02]  Debug: MB Got message from friend42: !yt [URL]https://www.youtube.com/watch?v=vS7X5nuvjHo[/URL]
+[15:53:02]Warning: TH Web error: [403] Forbidden
+[15:53:02]  Debug: YT Ruined!
+[15:53:04]  Debug: YT Saved!
+[15:53:04]  Debug: PM ar start: Youtube ID:vS7X5nuvjHo
+[15:53:13]  Debug: MB Got message from friend42: !vol 10
+[15:57:03]Warning: SongStoppedHook could not play Next: No next song could be played
+[15:59:47]  Debug: MB Got message from friend42: !yt [URL]https://www.youtube.com/watch?v=-Vd2nyk-4Lo[/URL]
+[15:59:47]Warning: TH Web error: [403] Forbidden
+[15:59:47]  Debug: YT Ruined!
+[15:59:47]  Error: youtube-dl failed to load the resource:
+Usage: __main__.py [OPTIONS] URL [URL...]
+
+__main__.py: error: no such option: -V
+
+[16:00:11]  Debug: MB Got message from friend42: !yt [URL]https://www.youtube.com/watch?v=_QMDPC6Lwj0[/URL]
+[16:00:11]Warning: TH Web error: [403] Forbidden
+[16:00:11]  Debug: YT Ruined!
+[16:00:12]  Debug: YT Saved!
+[16:00:12]  Debug: PM ar start: Youtube ID:_QMDPC6Lwj0
+[16:00:38]  Debug: MB Got message from MyName: !vo 8
+[16:00:38]  Debug: SM User MyName created session with the bot
+[16:03:45]Warning: SongStoppedHook could not play Next: No next song could be played
+[16:03:47]  Debug: MB Got message from friend42: !yt [URL]https://www.youtube.com/watch?v=_QMDPC6Lwj0[/URL]
+[16:03:47]Warning: TH Web error: [403] Forbidden
+[16:03:47]  Debug: YT Ruined!
+[16:03:49]  Debug: YT Saved!
+[16:03:49]  Debug: PM ar start: Youtube ID:_QMDPC6Lwj0
+[16:06:09]  Debug: MB Got message from MyName: !song
+[16:06:41]  Debug: MB Got message from MyName: !vo 8
+[16:07:21]Warning: SongStoppedHook could not play Next: No next song could be played
+[23:02:36]  Debug: MB Got message from friend-too: !pl [URL]https://www.youtube.com/watch?v=UATjGS1yd-g[/URL]
+[23:02:36]  Debug: SM User friend-too created session with the bot
+[23:02:36]  Debug: PM ar start: Youtube ID:UATjGS1yd-g
+[23:06:24]Warning: SongStoppedHook could not play Next: No next song could be played
+[23:10:39]  Debug: MB Got message from friend-too: !pl [URL]https://www.youtube.com/watch?v=D-_qS_3KXBA[/URL]
+[23:10:40]Warning: TH Web error: [403] Forbidden
+[23:10:40]  Debug: YT Ruined!
+[23:10:43]  Debug: YT Saved!
+[23:10:43]  Debug: PM ar start: Youtube ID:D-_qS_3KXBA
+[23:14:58]Warning: SongStoppedHook could not play Next: No next song could be played
+[18:17:24]  Debug: MB Got message from MyName: !version
+[18:17:24]  Debug: SM User MyName created session with the bot
+[18:23:01]  Debug: MB Got message from MyName: !pm
+[18:23:11]  Debug: MB Got message from MyName: !api token
+[19:28:51]  Error: Critical program failure!. Exception:
+MSG: The given key was not present in the dictionary.
+TYPE:KeyNotFoundException
+STACK:  at System.Collections.Generic.Dictionary`2[TKey,TValue].get_Item (TKey key) [0x0001e] in <a07d6bf484a54da2861691df910339b1>:0
+  at LiteDB.DataService.GetBlock (LiteDB.PageAddress blockAddress) [0x00016] in <fd3cfe54fa504c7989678d84ffcd090b>:0
+  at LiteDB.DataService.Read (LiteDB.PageAddress blockAddress) [0x00000] in <fd3cfe54fa504c7989678d84ffcd090b>:0
+  at LiteDB.LiteEngine+<Find>d__52.MoveNext () [0x0013d] in <fd3cfe54fa504c7989678d84ffcd090b>:0
+  at LiteDB.LiteCollection`1+<Find>d__17[T].MoveNext () [0x000fc] in <fd3cfe54fa504c7989678d84ffcd090b>:0
+  at System.Linq.Enumerable+SelectEnumerableIterator`2[TSource,TResult].MoveNext () [0x00029] in <26aedeede9534b948c539f8734c8492d>:0
+  at System.Web.Script.Serialization.JsonSerializer.SerializeEnumerable (System.Text.StringBuilder output, System.Collections.IEnumerable enumerable) [0x00043] in <6c5e22fb2f9745edb020adb777f82ab5>:0
+  at System.Web.Script.Serialization.JsonSerializer.SerializeValueImpl (System.Object obj, System.Text.StringBuilder output) [0x002af] in <6c5e22fb2f9745edb020adb777f82ab5>:0
+  at System.Web.Script.Serialization.JsonSerializer.SerializeValue (System.Object obj, System.Text.StringBuilder output) [0x0000e] in <6c5e22fb2f9745edb020adb777f82ab5>:0
+  at System.Web.Script.Serialization.JsonSerializer.DoSerialize (System.Object obj, System.Text.StringBuilder output) [0x00012] in <6c5e22fb2f9745edb020adb777f82ab5>:0
+  at System.Web.Script.Serialization.JsonSerializer.Serialize (System.Object obj, System.Text.StringBuilder output) [0x0000e] in <6c5e22fb2f9745edb020adb777f82ab5>:0
+  at System.Web.Script.Serialization.Json.Serialize (System.Object obj, System.Web.Script.Serialization.JavaScriptSerializer jss, System.Text.StringBuilder output) [0x00006] in <6c5e22fb2f9745edb020adb777f82ab5>:0
+  at System.Web.Script.Serialization.JavaScriptSerializer.Serialize (System.Object obj, System.Text.StringBuilder output) [0x00000] in <6c5e22fb2f9745edb020adb777f82ab5>:0
+  at System.Web.Script.Serialization.JavaScriptSerializer.Serialize (System.Object obj) [0x00006] in <6c5e22fb2f9745edb020adb777f82ab5>:0
+  at TS3AudioBot.Web.Interface.WebHistorySearch.PrepareSite (TS3AudioBot.Web.UriExt url) [0x0003d] in <e61fbb6b21a34735a6a46999c114bc43>:0
+  at TS3AudioBot.Web.Interface.WebDisplay.DispatchCall (System.Net.HttpListenerContext context) [0x00022] in <e61fbb6b21a34735a6a46999c114bc43>:0
+  at TS3AudioBot.Web.WebManager.EnterWebLoop () [0x000cd] in <e61fbb6b21a34735a6a46999c114bc43>:0
+  at System.Threading.ThreadHelper.ThreadStart_Context (System.Object state) [0x00014] in <a07d6bf484a54da2861691df910339b1>:0
+  at System.Threading.ExecutionContext.RunInternal (System.Threading.ExecutionContext executionContext, System.Threading.ContextCallback callback, System.Object state, System.Boolean preserveSyncCtx) [0x00071] in <a07d6bf484a54da2861691df910339b1>:0
+  at System.Threading.ExecutionContext.Run (System.Threading.ExecutionContext executionContext, System.Threading.ContextCallback callback, System.Object state, System.Boolean preserveSyncCtx) [0x00000] in <a07d6bf484a54da2861691df910339b1>:0
+  at System.Threading.ExecutionContext.Run (System.Threading.ExecutionContext executionContext, System.Threading.ContextCallback callback, System.Object state) [0x0002b] in <a07d6bf484a54da2861691df910339b1>:0
+  at System.Threading.ThreadHelper.ThreadStart () [0x00008] in <a07d6bf484a54da2861691df910339b1>:0
+
+[19:28:51]   Info: Exiting...
+[19:28:52]   Info: Closing QueryConnection...
+[19:28:52]   Info: Closing QueryConnection...
+[19:28:52]  Debug: Bot disconnected. Reason: LeftServer
+[19:31:50]   Info: [============ TS3AudioBot started =============]
+[19:31:50]   Info: [=== Date/Time: Friday, August 18, 2017 7:31:50 PM
+[19:31:50]   Info: [=== Version: 0.5.0-unstable.10/develop/d9b5ca12
+[19:31:50]   Info: [==============================================]
+[19:31:50]   Info: [============ Initializing Commands ===========]
+[19:31:50]   Info: [============ Initializing Modules ============]
+[19:31:52]   Info: Devupdate disabled
+[19:31:52]   Info: [=========== Initializing Factories ===========]
+[19:31:52]   Info: [=========== Registering callbacks ============]
+[19:31:52]   Info: [================= Finalizing =================]
+[19:31:53]Warning: Rule has no matcher
+[19:31:53]   Info: [==================== Done ====================]
+[19:32:14]  Debug: MB Got message from MyName: !hi last 10
+[19:32:14]  Debug: SM User MyName created session with the bot
+[19:32:14]Warning: Rule has no matcher
+[19:33:29]  Debug: MB Got message from MyName: !hi title <
+[19:33:34]  Debug: MB Got message from MyName: !hi title >
+[19:34:20]  Debug: MB Got message from MyName: !hi rename 1950 "<script>alert("Your site is shit!");</script>"
+[19:34:23]  Debug: MB Got message from MyName: !hi last 10
+[19:34:37]  Debug: MB Got message from MyName: !hi rename 1950 "<script>alert(\"Your site is shit!\");</script>"
+[19:34:39]  Debug: MB Got message from MyName: !hi last 10
+[19:35:58]  Debug: MB Got message from MyName: !hi rename 1950 "</td><script>alert(\"Your site is shit!\");</script>"
+[15:44:37]  Debug: MB Got message from MyName: !can
+[15:44:37]  Debug: SM User MyName created session with the bot
+[15:44:42]  Debug: MB Got message from MyName: !rights can
+[15:44:50]  Debug: MB Got message from MyName: !rights can cmd.help
+[15:45:44]  Debug: MB Got message from MyName: !help rig
+[15:45:49]  Debug: MB Got message from MyName: !help
+[15:47:16]  Debug: MB Got message from MyName: !rights can cmd.help cmd.play
+[22:54:04]  Debug: MB Got message from MyName: !pl [URL]https://soundcloud.com/dave-brunner-1/the-flying-dutchman-at-dj-s3rl[/URL]
+[22:54:04]  Debug: SM User MyName created session with the bot
+[22:54:05]  Debug: PM ar start: Soundcloud ID:205179583
+[22:57:24]Warning: SongStoppedHook could not play Next: No next song could be played
+[23:01:32]  Debug: MB Got message from MyName: !hi tit mein
+[23:01:37]  Debug: MB Got message from MyName: !hi play 178
+[23:01:38]  Debug: PM ar start: Youtube ID:6iaxDxHUWP8
+[23:04:11]  Debug: MB Got message from MyName: !vo 10
+[23:06:04]Warning: SongStoppedHook could not play Next: No next song could be played
+[14:16:45]  Debug: MB Got message from friend42: !pl 1718
+[14:16:45]  Debug: SM User friend42 created session with the bot
