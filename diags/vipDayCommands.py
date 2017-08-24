@@ -2,7 +2,7 @@ from CreateTimeGraphs import *
 
 def create_diag(dc):
 	"""Bot commands during a day (vip)"""
-	if dc.startDayBot == None:
+	if not botStats:
 		return
 	# The vip average for each slot on a day
 	commands = [0] * slotsPerDay

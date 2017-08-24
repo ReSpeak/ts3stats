@@ -2,7 +2,7 @@ from CreateTimeGraphs import *
 
 def create_diag(dc):
 	"""Commands per day"""
-	if dc.startDayBot == None:
+	if not botStats:
 		return
 	botUsers = []
 

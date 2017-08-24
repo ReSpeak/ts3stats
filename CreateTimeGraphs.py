@@ -134,7 +134,8 @@ class DiagramCreator:
 			self.parse_bot()
 
 		self.dayCount = (self.endDay - self.startDay).days + 1
-		self.dayCountBot = (self.endDayBot - self.startDayBot).days + 1
+		if botStats:
+			self.dayCountBot = (self.endDayBot - self.startDayBot).days + 1
 
 		self.generalTab = Tab("General")
 		self.vipTab = Tab("VIPs")
@@ -299,6 +300,10 @@ class DiagramCreator:
 		with open(path.join(outputFolder, "index.html"), "w") as f:
 			f.write(self.htmlTemplate.render(tabs = self.tabs,
 				date = datetime.now().strftime("%d.%m.%Y %H:%M")))
+
+		# Link the static data
+		if not path.exists(path.join(outputFolder, "static")):
+			os.symlink("../static", path.join(outputFolder, "static"))
 
 	def fun_per_connected_slot(self, users, slotFun, slotLength = timedelta(days = 1), floorFun = None):
 		"""Calls f for each day a certain connection lasts.

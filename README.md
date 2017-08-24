@@ -4,16 +4,17 @@ Create user statistics for a TeamSpeak3 server and (optionally) for the [TS3Audi
 ## Usage
  1. Put all server log files into a folder `Logs`.
  1. (optional) Put all TS3AudioBot logs into a folder `BotLogs`
+ 1. Create your `Settings.py` and fill at least the `vips` list
  1. Run `./CreateTimeGraphs.py`
  1. Open `Result/index.html` in a browser and enjoy the statistics
 
 ## Configuration
 All configuration can be put into a file called `Settings.py` and it will be picked up from there. The defaults for all options can be observed at the beginning of `CreateTimeGraphs.py`.
 
-Some diagrams are only done for a couple of users. You can configure for which users by setting the `vips` array:  
+Some diagrams are only done for a couple of users. You can configure for which users by setting the `vips` list:  
 `vips = ["MyName", "friend42"]`
 
-To merge multiple identities into a single user, use the `merges` array:  
+To merge multiple identities into a single user, use the `merges` list:  
 `merges = [["MyName", "MyNameLaptop"], ["friend42", "friend43"]]`
 
 As diagrams can be quite crowded when a server runs for a while, you can configure, when people are shown in some diagrams.

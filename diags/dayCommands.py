@@ -2,7 +2,7 @@ from CreateTimeGraphs import *
 
 def create_diag(dc):
 	"""Bot commands during a day"""
-	if dc.startDayBot == None:
+	if not botStats:
 		return
 	# The ... for each slot on a day
 	plays = [0] * slotsPerDay
