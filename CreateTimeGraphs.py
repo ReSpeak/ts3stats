@@ -248,7 +248,7 @@ class DiagramCreator:
 							self.startDayBot = curDate.date()
 
 						cmd = match.group("Command")
-						playCmd = cmd.startswith("pl")
+						playCmd = cmd.startswith("pl") or cmd.startswith("py") or cmd.startswith("ad")
 
 						# Find or create the user
 						name = match.group("Name").strip()
