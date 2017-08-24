@@ -1,0 +1,148 @@
+:root {
+	--sidebar-width: 18em;
+}
+
+body {
+	margin-top: 50px;
+	padding-top: 1em;
+}
+
+.navbar-text {
+	padding-right: 1em;
+}
+
+.btn:focus {
+	outline: none;
+}
+
+.diagram {
+	margin-bottom: 2em;
+}
+
+.anchor {
+	display: block;
+    position: relative;
+    top: -60px;
+    visibility: hidden;
+}
+
+.sidebar {
+	width: var(--sidebar-width);
+}
+
+main {
+	margin-left: var(--sidebar-width);
+	padding: 1em;
+	width: calc(100% - var(--sidebarwidth));
+}
+
+
+/*
+ * Sidebar from bootstrap
+ * ----------------------
+ */
+.sidebar {
+	position: fixed;
+	top: 31px;
+	bottom: 0;
+	left: 0;
+	z-index: 1000;
+	padding: 20px;
+	overflow-x: hidden;
+	overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+	border-right: 1px solid #293036;
+	background-color: #293036;
+}
+
+/* Sidebar navigation */
+.sidebar {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.sidebar .nav {
+	margin-bottom: 20px;
+}
+
+.sidebar .nav-item {
+	width: 100%;
+}
+
+.sidebar .nav-item + .nav-item {
+	margin-left: 0;
+}
+
+.sidebar .nav-link {
+	border-radius: 0;
+}
+
+.nav-stacked li {
+	transition: background-color 1s;
+}
+
+.nav-stacked .active {
+	background-color: #323c41;
+}
+
+/*.tab-content > .tab-pane {
+	transition: opacity ease-in-out 0.5s;
+	opacity: 0;
+	display: block;
+}
+.tab-content .tab-pane.active {
+	opacity: 1;
+}*/
+
+/*
+ * Off Canvas from bootstrap
+ * -------------------------
+ */
+@media screen and (max-width: 767px) {
+	.row-offcanvas {
+		position: relative;
+		-webkit-transition: all .25s ease-out;
+		-o-transition: all .25s ease-out;
+		transition: all .25s ease-out;
+	}
+
+	.row-offcanvas-right {
+		right: 0;
+	}
+
+	.row-offcanvas-left {
+		left: 0;
+	}
+
+	.row-offcanvas-right
+	.sidebar-offcanvas {
+		right: -100%; /* 12 columns */
+	}
+
+	.row-offcanvas-right.active
+	.sidebar-offcanvas {
+		right: -50%; /* 6 columns */
+	}
+
+	.row-offcanvas-left
+	.sidebar-offcanvas {
+		left: -100%; /* 12 columns */
+	}
+
+	.row-offcanvas-left.active
+	.sidebar-offcanvas {
+		left: -50%; /* 6 columns */
+	}
+
+	.row-offcanvas-right.active {
+		right: 50%; /* 6 columns */
+	}
+
+	.row-offcanvas-left.active {
+		left: 50%; /* 6 columns */
+	}
+
+	.sidebar-offcanvas {
+		position: absolute;
+		top: 0;
+	}
+}

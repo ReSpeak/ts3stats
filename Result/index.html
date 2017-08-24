@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>TeamSpeak stats</title>
+	<!-- bootstrap 3.3.7 -->
+	<link rel="stylesheet" href="static/bootstrap/css/slate/bootstrap.min.css">
+	<script src="static/jquery.min.js"></script>
+	<script src="static/bootstrap/js/bootstrap.min.js"></script>
+
+	<link rel="stylesheet" href="static/style.css">
+	<script src="static/script.js"></script>
+</head>
+<body data-spy="scroll" data-target=".sidebar" data-offset="60">
+<nav class="navbar navbar-default navbar-fixed-top">
+	<div class="container-fluid">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#top-collapse" aria-expanded="false" aria-controls="navbar">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="">TS3Stats</a>
+		</div>
+
+		<div class="collapse navbar-collapse" id="top-collapse">
+			<ul class="nav navbar-nav">
+				<li class="active">
+					<a href="#tabGeneral" data-toggle="tab" aria-role="button">General</a>
+				</li>
+				<li>
+					<a href="#tabVIPs" data-toggle="tab" aria-role="button">VIPs</a>
+				</li>
+				<li>
+					<a href="#tabBot" data-toggle="tab" aria-role="button">Bot</a>
+				</li>
+			</ul>
+			<p class="navbar-text navbar-right">Generated on 24.08.2017 12:19</p>
+		</div>
+	</div>
+</nav>
+
+<div class="container-fluid tab-content">
+<div class="row tab-pane active" id="tabGeneral">
+	<nav class="hidden-xs-down bg-faded sidebar sidebar-offcanvas">
+		<ul class="nav nav-stacked flex-column">
+			<li class="active">
+				<a href="#diagdayconnects">Connects during a day</a>
+			</li>
+			<li>
+				<a href="#diagconnectstime">Connections per day</a>
+			</li>
+			<li>
+				<a href="#diagconnectstimeCumulative">Cumulative connections per day</a>
+			</li>
+			<li>
+				<a href="#diaguserconnects">Connections</a>
+			</li>
+			<li>
+				<a href="#diagusertime">Time spent on TeamSpeak</a>
+			</li>
+		</ul>
+	</nav>
+
+	<main class="pt-3">
+		<!--<p class="pull-left visible-xs">
+			<button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas">Navigation</button>
+		</p>-->
+		<div class="diagram">
+			<a class="anchor" id="diagdayconnects"></a>
+			<a href="#diagdayconnects"><h4>Connects during a day</h4></a>
+			<object data="dayconnects.svg" type="image/svg+xml"></object>
+		</div>
+		<div class="diagram">
+			<a class="anchor" id="diagconnectstime"></a>
+			<a href="#diagconnectstime"><h4>Connections per day</h4></a>
+				<h6>Fake timeouts: 0</h6>
+			<object data="connectstime.svg" type="image/svg+xml"></object>
+		</div>
+		<div class="diagram">
+			<a class="anchor" id="diagconnectstimeCumulative"></a>
+			<a href="#diagconnectstimeCumulative"><h4>Cumulative connections per day</h4></a>
+			<object data="connectstimeCumulative.svg" type="image/svg+xml"></object>
+		</div>
+		<div class="diagram">
+			<a class="anchor" id="diaguserconnects"></a>
+			<a href="#diaguserconnects"><h4>Connections</h4></a>
+				<h6>Total connects: 187</h6>
+			<object data="userconnects.svg" type="image/svg+xml"></object>
+		</div>
+		<div class="diagram">
+			<a class="anchor" id="diagusertime"></a>
+			<a href="#diagusertime"><h4>Time spent on TeamSpeak</h4></a>
+				<h6>Sum of all time spent on this server: 51 days 21:39:06</h6>
+			<object data="usertime.svg" type="image/svg+xml"></object>
+		</div>
+	</main>
+</div>
+<div class="row tab-pane" id="tabVIPs">
+	<nav class="hidden-xs-down bg-faded sidebar sidebar-offcanvas">
+		<ul class="nav nav-stacked flex-column">
+			<li class="active">
+				<a href="#diagdaytime">Daytime</a>
+			</li>
+			<li>
+				<a href="#diagdays">Time spent on TeamSpeak</a>
+			</li>
+			<li>
+				<a href="#diagdaysCumulative">Time spent on TeamSpeak</a>
+			</li>
+			<li>
+				<a href="#diagvipconnects">Cumulative joins per day</a>
+			</li>
+		</ul>
+	</nav>
+
+	<main class="pt-3">
+		<!--<p class="pull-left visible-xs">
+			<button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas">Navigation</button>
+		</p>-->
+		<div class="diagram">
+			<a class="anchor" id="diagdaytime"></a>
+			<a href="#diagdaytime"><h4>Daytime</h4></a>
+			<object data="daytime.svg" type="image/svg+xml"></object>
+		</div>
+		<div class="diagram">
+			<a class="anchor" id="diagdays"></a>
+			<a href="#diagdays"><h4>Time spent on TeamSpeak</h4></a>
+			<object data="days.svg" type="image/svg+xml"></object>
+		</div>
+		<div class="diagram">
+			<a class="anchor" id="diagdaysCumulative"></a>
+			<a href="#diagdaysCumulative"><h4>Time spent on TeamSpeak</h4></a>
+			<object data="daysCumulative.svg" type="image/svg+xml"></object>
+		</div>
+		<div class="diagram">
+			<a class="anchor" id="diagvipconnects"></a>
+			<a href="#diagvipconnects"><h4>Cumulative joins per day</h4></a>
+			<object data="vipconnects.svg" type="image/svg+xml"></object>
+		</div>
+	</main>
+</div>
+<div class="row tab-pane" id="tabBot">
+	<nav class="hidden-xs-down bg-faded sidebar sidebar-offcanvas">
+		<ul class="nav nav-stacked flex-column">
+			<li class="active">
+				<a href="#diagdaycommands">Commands during a day</a>
+			</li>
+			<li>
+				<a href="#diagcommandstime">Commands per day</a>
+			</li>
+			<li>
+				<a href="#diagcommandstimeCumulative">Cumulative commands per day</a>
+			</li>
+			<li>
+				<a href="#diagvipdaycommands">Commands during a day (vip)</a>
+			</li>
+			<li>
+				<a href="#diagvipcommandstime">Commands per day (vip)</a>
+			</li>
+			<li>
+				<a href="#diagvipcommandstimeCumulative">Cumulative commands per day (vip)</a>
+			</li>
+		</ul>
+	</nav>
+
+	<main class="pt-3">
+		<!--<p class="pull-left visible-xs">
+			<button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas">Navigation</button>
+		</p>-->
+		<div class="diagram">
+			<a class="anchor" id="diagdaycommands"></a>
+			<a href="#diagdaycommands"><h4>Commands during a day</h4></a>
+				<h6>Bot users: 5</h6>
+			<object data="daycommands.svg" type="image/svg+xml"></object>
+		</div>
+		<div class="diagram">
+			<a class="anchor" id="diagcommandstime"></a>
+			<a href="#diagcommandstime"><h4>Commands per day</h4></a>
+				<h6>Total: 53 commands, 8 plays</h6>
+			<object data="commandstime.svg" type="image/svg+xml"></object>
+		</div>
+		<div class="diagram">
+			<a class="anchor" id="diagcommandstimeCumulative"></a>
+			<a href="#diagcommandstimeCumulative"><h4>Cumulative commands per day</h4></a>
+			<object data="commandstimeCumulative.svg" type="image/svg+xml"></object>
+		</div>
+		<div class="diagram">
+			<a class="anchor" id="diagvipdaycommands"></a>
+			<a href="#diagvipdaycommands"><h4>Commands during a day (vip)</h4></a>
+				<h6>Vip bot users: 2/4</h6>
+			<object data="vipdaycommands.svg" type="image/svg+xml"></object>
+		</div>
+		<div class="diagram">
+			<a class="anchor" id="diagvipcommandstime"></a>
+			<a href="#diagvipcommandstime"><h4>Commands per day (vip)</h4></a>
+			<object data="vipcommandstime.svg" type="image/svg+xml"></object>
+		</div>
+		<div class="diagram">
+			<a class="anchor" id="diagvipcommandstimeCumulative"></a>
+			<a href="#diagvipcommandstimeCumulative"><h4>Cumulative commands per day (vip)</h4></a>
+			<object data="vipcommandstimeCumulative.svg" type="image/svg+xml"></object>
+		</div>
+	</main>
+</div>
+</div>
+
+</body>
+</html>
