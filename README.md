@@ -26,6 +26,6 @@ Enable statistics for the TS3AudioBot with `botStats = True`.
 
 # Demo
 
-An example of how it can look ([full site]()).
+An example of how the statistics look ([full site](https://flakebi.github.io/ts3stats/Result/)).
 
-TODO Screenshot
+![Screenshot](Screenshot.png)
