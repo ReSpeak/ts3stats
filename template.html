@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>TeamSpeak stats</title>
+	<!-- bootstrap 3.3.7 -->
+	<link rel="stylesheet" href="static/bootstrap/css/slate/bootstrap.min.css">
+	<script src="static/jquery.min.js"></script>
+	<script src="static/bootstrap/js/bootstrap.min.js"></script>
+
+	<link rel="stylesheet" href="static/style.css">
+	<script src="static/script.js"></script>
+</head>
+<body data-spy="scroll" data-target=".sidebar" data-offset="60">
+<nav class="navbar navbar-default navbar-fixed-top">
+	<div class="container-fluid">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#top-collapse" aria-expanded="false" aria-controls="navbar">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="">TS3Stats</a>
+		</div>
+
+		<div class="collapse navbar-collapse" id="top-collapse">
+			<ul class="nav navbar-nav">
+			{% for tab in tabs %}
+				<li{% if loop.first %} class="active"{% endif %}>
+					<a href="#tab{{ tab.shortname }}" data-toggle="tab" aria-role="button">{{ tab.name }}</a>
+				</li>
+			{% endfor %}
+			</ul>
+			<p class="navbar-text navbar-right">Generated on {{ date }}</p>
+		</div>
+	</div>
+</nav>
+
+<div class="container-fluid tab-content">
+{% for tab in tabs %}
+<div class="row tab-pane{% if loop.first %} active{% endif %}" id="tab{{ tab.shortname }}">
+	<nav class="hidden-xs-down bg-faded sidebar sidebar-offcanvas">
+		<ul class="nav nav-stacked flex-column">
+		{% set tabloop = loop %}
+		{% for diag in tab.diagrams %}
+			<li{% if loop.first %} class="active"{% endif %}>
+				<a href="#diag{{ diag.shortname }}">{{ diag.title }}</a>
+			</li>
+		{% endfor %}
+		</ul>
+	</nav>
+
+	<main class="pt-3">
+		<!--<p class="pull-left visible-xs">
+			<button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas">Navigation</button>
+		</p>-->
+	{% for diag in tab.diagrams %}
+		<div class="diagram">
+			<a class="anchor" id="diag{{ diag.shortname }}"></a>
+			<a href="#diag{{ diag.shortname }}"><h4>{{ diag.title }}</h4></a>
+			{% if diag.subtitle != None %}
+				<h6>{{ diag.subtitle }}</h6>
+			{% endif %}
+			<object data="{{ diag.filename }}.svg" type="image/svg+xml"></object>
+		</div>
+	{% endfor %}
+	</main>
+</div>
+{% endfor %}
+</div>
+
+</body>
+</html>
