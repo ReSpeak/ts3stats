@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 import calendar
 from datetime import *
 import fileinput
@@ -212,10 +212,16 @@ class DiagramCreator:
 		linePattern = re.compile(r"^\[(?P<Time>\d{2}:\d{2}:\d{2})\]\s*Debug: MB Got message from (?P<Name>[^:]*): !(?P<Command>.*)\n?$")
 		datePattern = re.compile(r"^\[(?P<Time>\d{2}:\d{2}:\d{2})\]\s*Info: \[=== (?:Date:.*,\s*(?P<mday0>\d+) (?P<month0>\w+) (?P<year0>\d+).*|Date:.*,\s*(?P<month1>\w+) (?P<mday1>\d+), (?P<year1>\d+).*|Date/Time:.*,\s*(?P<month2>\w+) (?P<mday2>\d+), (?P<year2>\d+).*)\n?$")
 		timePattern = re.compile(r"^\[(?P<Time>\d{2}:\d{2}:\d{2})\].*\n?$")
+
+		newLinePattern = re.compile(r"^(?P<Time>\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2})\.\d{4}\|.*Got message from (?P<Name>[^:]*): !(?P<Command>.*)$")
+		newLinePattern2 = re.compile(r"^(?P<Time>\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2})\.\d{4}\|.*User (?P<Name>.*) requested: !(?P<Command>.*)$")
 		# Line formats:
 		# [04:44:57]   Info: [=== Date:            Monday, 27 March 2017 ===]
 		# [19:31:50]   Info: [=== Date/Time: Friday, August 18, 2017 7:31:50 PM
 		# [17:13:54]  Debug: MB Got message from Hengo: !pl [URL]https://www.youtube.com/watch?v=d_RjwMZItZo[/URL]
+		#
+		# 2018-01-11 00:30:09.2136|DEBUG|Bot.TextCallback Got message from Splamy: !ver
+		# 2018-06-27 15:59:49.9569| INFO|Bot.TextCallback User Splamy requested: !sett get connect.name
 		# Read connections from log
 		for file in inputFiles:
 			with open(file) as f:
@@ -230,8 +236,6 @@ class DiagramCreator:
 							if match.group("year" + str(i)) != None:
 								curDate = datetime.strptime("{}-{}-{} {}".format(match.group("year" + str(i)), match.group("month" + str(i)), match.group("mday" + str(i)), match.group("Time")), "%Y-%B-%d %H:%M:%S")
 								break
-					elif "Date" in line and "[=" in line:
-						print("Unknown date format:", line)
 					match = timePattern.fullmatch(line)
 					if match:
 						curTime = datetime.strptime(match.group("Time"), "%H:%M:%S").time()
@@ -247,25 +251,36 @@ class DiagramCreator:
 						if type(curDate) is datetime and curDate.date() < self.startDayBot:
 							self.startDayBot = curDate.date()
 
-						cmd = match.group("Command")
-						playCmd = cmd.startswith("pl") or cmd.startswith("py") or cmd.startswith("ad")
+						self.parseAddEvent(curDate, match.group("Name").strip(), match.group("Command"))
 
-						# Find or create the user
-						name = match.group("Name").strip()
-						user = None
-						for u in self.users:
-							if u.name == name:
-								user = u
-								break
+					match = newLinePattern.fullmatch(line.strip())
+					if not match:
+						match = newLinePattern2.fullmatch(line.strip())
+					if match:
+						curDate = datetime.strptime(match.group("Time"), "%Y-%m-%d %H:%M:%S")
+						if curDate.date() < self.startDayBot:
+							self.startDayBot = curDate.date()
 
-						if user == None:
-							user = User(name)
-							self.users.append(user)
+						self.parseAddEvent(curDate, match.group("Name").strip(), match.group("Command"))
 
-						if playCmd:
-							user.botPlays.append((curDate, cmd))
-						else:
-							user.botCommands.append((curDate, cmd))
+	def parseAddEvent(self, curDate, name, command):
+		playCmd = command.startswith("pl") or command.startswith("py") or command.startswith("ad")
+
+		# Find or create the user
+		user = None
+		for u in self.users:
+			if u.name == name:
+				user = u
+				break
+
+		if user == None:
+			user = User(name)
+			self.users.append(user)
+
+		if playCmd:
+			user.botPlays.append((curDate, command))
+		else:
+			user.botCommands.append((curDate, command))
 
 	def merge(self):
 		# Merge users

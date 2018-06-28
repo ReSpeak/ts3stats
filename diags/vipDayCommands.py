@@ -42,7 +42,7 @@ def create_diag(dc):
 		set key autotitle columnhead
 		set samples 1000
 		"""
-	diag.plots = ["index '{0}' using 1:2 title '{0}' smooth csplines".format(t)
+	diag.plots = ["index '{0}' using 1:2 title '{0}'".format(t)
 		for t in [u.name for u in botUsers] + ["Average"]]
 
 	diag.render(dc.diagramTemplate)
