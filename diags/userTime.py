@@ -29,6 +29,7 @@ def create_diag(dc):
 		set timefmt "%H:%M:%S"
 		set format x "%H:%M:%S"
 
+		set yrange [0:]
 		set xtics rotate by -90
 		set style histogram clustered gap 4
 		set boxwidth 0.8 relative
