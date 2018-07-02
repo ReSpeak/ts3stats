@@ -13,7 +13,7 @@ def create_diag(dc):
 
 	with openTempfile("days") as f:
 		for u in dc.vip:
-			dc.write_days(f, [t.total_seconds() for t in u.dayTimes], u.name)
+			dc.write_days(f, [t.total_seconds() / 3600 for t in u.dayTimes], u.name)
 
 	# Create the diagram
 	diag = Diagram("days", "Time spent on TeamSpeak")
@@ -41,7 +41,7 @@ def create_diag(dc):
 
 	# Create the diagram
 	diag2 = Diagram("daysCumulative")
-	diag2.title = diag.title
+	diag2.title = "Cumulative time spent on TeamSpeak"
 	diag2.xlabel = diag.xlabel
 	diag2.ylabel = "Connection time (in days)"
 	diag2.appendText = diag.appendText
