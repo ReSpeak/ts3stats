@@ -2,7 +2,7 @@
 import calendar
 from datetime import *
 import fileinput
-from html.parser import HTMLParser
+import html
 import importlib
 import math
 import os
@@ -61,9 +61,8 @@ CONNECTION_END = 2
 def openTempfile(name):
 	return open(path.join(tempFolder, name + ".tmp"), "w")
 
-htmlParser = HTMLParser()
 def parseName(name):
-	return htmlParser.unescape(name)
+	return html.unescape(name)
 
 def timeToString(t):
 	secs = t.total_seconds()
