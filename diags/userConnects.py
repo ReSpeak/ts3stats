@@ -4,13 +4,13 @@ def create_diag(dc):
 	"""Amount of connects per user"""
 	connects = 0
 	us = sorted(dc.users, key = lambda u: -len(u.connections))
+	for u in us:
+		connects += len(u.connections)
+	us = us[:maxUsers]
 	with openTempfile("userconnects") as f:
 		for u in us:
 			c = len(u.connections)
-			connects += c
-			# Only list more than a few connections
-			if c > minConnects:
-				f.write('"{0}"\t{1}\n'.format(gnuplotEscape(u.name), c))
+			f.write('"{0}"\t{1}\n'.format(gnuplotEscape(u.name), c))
 
 	# Create the diagram
 	diag = Diagram("userconnects", "Connections", 1920, 800)

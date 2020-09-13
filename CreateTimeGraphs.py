@@ -22,14 +22,12 @@ import diags
 # (insert your and your friends names here)
 # E. g. vips = ["MyName", "friend42"]
 vips = []
-# Merge or rename users
-# E. g. merges = [["MyName", "MyNameLaptop"], ...]
+# Merge or rename users by name or database id
+# E.g. merges = [["MyName", "MyNameLaptop", 20], ...]
 merges = []
 
-# Minimum total connection time for the diagram
-minTime = timedelta(hours = 10)
-# Minimum total connection count for the diagram
-minConnects = 8
+# Maximum users to show in diagrams
+maxUsers = 50
 # Statistics about the TS3AudioBot
 botStats = False
 
@@ -168,7 +166,7 @@ class DiagramCreator:
 						if t.date() < self.startDay:
 							self.startDay = t.date()
 
-						userId = match.group("DbId")
+						userId = int(match.group("DbId"))
 						# Find or create the user
 						if userId not in self.users:
 							u = User(parseName(match.group("Name")))
@@ -266,6 +264,11 @@ class DiagramCreator:
 		playCmd = command.startswith("pl") or command.startswith("py") or command.startswith("ad")
 
 		# Find or create the user
+		for m in merges:
+			if name in m:
+				name = m[0]
+				break
+
 		user = None
 		for u in self.users:
 			if u.name == name:
@@ -283,10 +286,14 @@ class DiagramCreator:
 
 	def merge(self):
 		# Merge users
-		for u in self.users.values():
+		for id, u in self.users.items():
 			for m in merges:
-				if u.name in m:
+				# print(f"Id {id} {type(id)} searched in {m}")
+				# if id in m:
+					# print(f"Id {id} merged in {m[0]}")
+				if u.name in m or id in m:
 					u.name = m[0]
+					break
 
 		# Aggregate users with the same name
 		self.users = list(self.users.values())

@@ -10,15 +10,15 @@ def create_diag(dc):
 			# Increase connected time
 			u.time += con.duration()
 	us = sorted(dc.users, key = lambda u: -u.time)
+	for u in us:
+		globalTime += u.time
+	us = us[:maxUsers]
 
 	# Create users graph
 	with openTempfile("usertime") as f:
 		for u in us:
-			globalTime += u.time
-			# Only list more than some minutes
-			if u.time > minTime:
-				# Time in days
-				f.write('"{0}"\t{1}\n'.format(gnuplotEscape(u.name), u.time / timedelta(days = 1)))
+			# Time in days
+			f.write('"{0}"\t{1}\n'.format(gnuplotEscape(u.name), u.time / timedelta(days = 1)))
 
 	# Create the diagram
 	diag = Diagram("usertime", "Time spent on TeamSpeak", 1920, 800)
